@@ -8,60 +8,36 @@ horizontal: false
 ---
 
 
+We invite two types of papers -- opinion papers (up to 4 pages) and technical papers (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
+
+- Developing methods for accelerating RL training depending on type or combination of prior computation available:
+  -  Learned policies
+  -  Offline datasets 
+  -  Pretrained dynamics models
+  -  Foundation models or LLMs
+  -  Pretrained representations
+  -  Learned Skills
+- Challenges for dealing with suboptimality of prior computational work
+- Democratizing large-scale RL problems by releasing prior computation and formalizing the corresponding reincarnating RL setting.
+- Algorithmic decisions and challenges associated with suboptimality of prior computational work
+- Evaluation protocols, frameworks and standardized benchmarks for leveraging prior computation in RL research
+- Real-world / Large-scale applications of reincarnating RL
+- Properties of prior computational work needed to guarantee optimality of reincarnating RL methods
+- Connection to transfer learning, lifelong learning and data-driven simulation.
+
+Submission Site: <a href="??"> ?? </a>
+
 
 We invite two types of papers -- opinion papers (up to 4 pages) stating positions on the topics
 related to those listed above, and methodology papers (up to 8 pages excluding references) about
 evaluation in ML. These topics may include: 
 
-- Establishing benchmarking standards for ML research
-  - The role of benchmarks in facilitating research progress
-  - New evaluation techniques or metrics (general or e.g. NLP-specific)
-- Reliable tools/protocols for benchmarking and evaluation
-  - Hyperparameter tuning
-  - Reporting statistical uncertainty 
-  - Statistical testing and metrics (e.g. multi-objective, Pareto frontiers).
-- Understanding and defining reproducibility for machine learning
-  - Replicability vs Reproducibility
-  - Does reproducibility in ML need to be different from other fields?
-  - Role of determinism
-  - Understanding sources of variation in results in deep learning
-  - How much rigor is needed for ML? 
-- Meta analyses thoroughly evaluating existing claims across papers
-  - Evaluating robustness of previous claims 
-  - Reporting statistical or methodological issues 
-  - Analysis of evaluation protocols on existing benchmarks
-- Incentives for doing better evaluation and reporting results
-  - Action items for conferences / Guidelines / training reviewers 
-  - Incentivizing researchers to care about deployment (trustability, reliability, generalizability)
-  - Cultural changes and software tools for reliable evaluation
-  - Understanding differences across subfields in ML evaluation
-
-
-### Schmidt Futures Grants
-
-Excitingly, the ML Evaluation Standards workshop will be collaborating with
-[@SchmidtFutures](https://twitter.com/SchmidtFutures) to grant $15,000 USD in awards for workshop
-submissions and reviewers! 
-
-As part of this collaboration, we are announcing a new track "Improvement to the Conference and
-Publication Process". We will consider awards for workshop submissions that propose ideas in the
-following areas:
-1. Ideas that incentivize better peer-reviewing processes (e.g. a new workflow for assigning paper reviewers)
-2. Ideas that address structural problems in ML publishing (e.g. proposing a new track for engineering-heavy work that would not be rewarded in traditional platforms)
-3. Ideas that emphasize (novel) reproducibility and/or standardization of methods evaluation (e.g. a novel reproducibility adoption mechanism for conferences)
-
-If your submission falls into one of these areas, please submit your proposal to the relevant track.
-
-We will also be granting awards for the best reviews. Reviewing can be a thankless task; in this
-workshop, we want to acknowledge reviewers' hard work, to reward their service to the community, to
-encourage quality reviews, and to set an example for future conferences/workshops.
-
 # Submission Website 
-<a href="https://cmt3.research.microsoft.com/SMILES2022/"> https://cmt3.research.microsoft.com/SMILES2022 </a>
+<a href="??"> ?? </a>
 
 # Important Dates
 
-- Submission deadline: ~~4th March~~ **Extended to 8th March 11:59 pm AoE**
+- Submission deadline: **Feb 15 AoE**
 - Accept/Reject Notification Date: 25th March
 - Camera Ready: 18th April
 - Workshop: 29th April 
@@ -71,7 +47,7 @@ encourage quality reviews, and to set an example for future conferences/workshop
 We will accept technical papers of length up to 8 pages and opinion papers of length up to 4 pages,
 excluding references and appendices and position papers. In order to gather a wide variety of views,
 we will minimally constrain the format and topic areas for both types of papers. We will not accept
-work published in prior ML conferences including ICLR 2022, and encourage the submission of working
+work published in prior ML conferences including ICLR 2023, and encourage the submission of working
 papers. The submission process will be handled via CMT in a double-blind review process. Papers can
 utilize any style file they want (for e.g., ICML, NeurIPS, ICLR) and should be anonymized for double
 blind review.
@@ -83,62 +59,82 @@ papers into two groups with different presentation types – contributed talks (
 
 # References
 
-[1] Sculley, David, et al. "Winner's curse? On pace, progress, and empirical rigor." (2018).
+[1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022.
 
-[2] Ali Rahimi and Benjamin Recht. Nips test of time award presentation. https://www.youtube.com/watch?v=Qi1Yry33TQE. Accessed: 2021-10-23.
+[2] Ilge Akkaya, Marcin Andrychowicz, Maciek Chociej, Mateusz Litwin, Bob McGrew, Arthur Petron, Alex Paino, Matthias Plappert, Glenn Powell, Raphael Ribas, et al.  Solving rubik’s cube with a robot hand. arXiv preprint arXiv:1910.07113, 2019.
 
-CV
+[3] Christopher Berner, Greg Brockman, Brooke Chan, Vicki Cheung, Przemysław D ̨ebiak, Christy Dennison, David Farhi, Quirin Fischer, Shariq Hashme, Chris Hesse, et al. Dota 2 with large scale deep reinforcement learning. arXiv preprint arXiv:1912.06680, 2019.
 
-[3] Bouthillier, X., Laurent, C., & Vincent, P. (2019, May). Unreproducible research is reproducible. In the International Conference on Machine Learning (pp. 725-734). PMLR.
+[4] Yao Lu, Karol Hausman, Yevgen Chebotar, Mengyuan Yan, Eric Jang, Alexander Herzog, Ted Xiao, Alex Irpan, Mohi Khansari, Dmitry Kalashnikov, et al.  Aw-opt: Learning robotic skills with imitation and reinforcement at scale. In Conference on Robot Learning, pages 1078–1088. PMLR, 2022.
 
-[4] Wightman, R., Touvron, H., & Jégou, H. (2021). ResNet strikes back: An improved training procedure in timm. arXiv preprint arXiv:2110.00476.
+[5] Azalia Mirhoseini, Anna Goldie, Mustafa Yazgan, Joe Wenjie Jiang, Ebrahim Songhori, Shen Wang, Young-Joon Lee, Eric Johnson, Omkar Pathak, Azade Nazi, et al. A graph placement methodology for fast chip design. Nature, 594(7862):207–212, 2021.
 
-Recommendation
+[6] David Silver, Aja Huang, Chris J Maddison, Arthur Guez, Laurent Sifre, George Van Den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, et al. Mastering the game of go with deep neural networks and tree search. Nature, 529(7587):484–489, 2016.
 
-[5] Dacrema, M.F., Cremonesi, P. and Jannach, D., 2019, September. Are we really making much progress? A worrying analysis of recent neural recommendation approaches. In Proceedings of the 13th ACM Conference on Recommender Systems (pp. 101-109)
+[7] Oriol Vinyals, Igor Babuschkin, Wojciech M Czarnecki, Michaël Mathieu, Andrew Dudzik, Junyoung Chung, David H Choi, Richard Powell, Timo Ewalds, Petko Georgiev, et al. Grandmaster level in starcraft ii using multi-agent reinforcement learning. Nature, 575(7782):350–354, 2019.
 
-Reinforcement Learning 
+[8] Trofin, Mircea, Yundi Qian, Eugene Brevdo, Zinan Lin, Krzysztof Choromanski, and David Li. "Mlgo: a machine learning guided compiler optimizations framework." arXiv preprint arXiv:2101.04808 (2021).
 
-[6] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A. C., & Bellemare, M. (2021). Deep reinforcement learning at the edge of the statistical precipice. Advances in Neural Information Processing Systems, 34.
+Reusing Network Weights for Fine-Tuning
 
-[7] Chan, S. C., Fishman, S., Korattikara, A., Canny, J., & Guadarrama, S. (2019, September). Measuring the Reliability of Reinforcement Learning Algorithms. In International Conference on Learning Representations.
+[9] Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien Ecoffet, Brandon Houghton, Raul Sampedro, and Jeff Clune.  Video pretraining (vpt): Learning to act by watching unlabeled online videos. arXiv preprint arXiv:2206.11795, 2022.
 
-[8] Henderson, P., Islam, R., Bachman, P., Pineau, J., Precup, D., & Meger, D. (2017). Deep reinforcement learning that matters. arXiv 2017. arXiv preprint arXiv:1709.06560.
+[10] Julian, Ryan, Benjamin Swanson, Gaurav S. Sukhatme, Sergey Levine, Chelsea Finn, and Karol Hausman. "Never stop learning: The effectiveness of fine-tuning in robotic reinforcement learning." arXiv preprint arXiv:2004.10190 (2020)
 
-NLP
+Reusing Learned Policies
 
-[9] Card, D., Henderson, P., Khandelwal, U., Jia, R., Mahowald, K., & Jurafsky, D. (2020). With little power comes great responsibility. arXiv preprint arXiv:2010.06595.
+[11] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A., & Bellemare, M. G. (2022).  Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress. NeurIPS
 
-[10] Gorman, K., & Bedrick, S. (2019, July). We need to talk about standard splits. In Proceedings of the 57th annual meeting of the association for computational linguistics (pp. 2786-2791).
+[12]  Lee, Alex X., Coline Devin, Jost Tobias Springenberg, Yuxiang Zhou, Thomas Lampe, Abbas Abdolmaleki, and Konstantinos Bousmalis. "How to spend your robot time: Bridging kickstarting and offline reinforcement learning for vision-based robotic manipulation." arXiv preprint arXiv:2205.03353 (2022).
 
-[11] Hoyle, Alexander, et al. "Is Automated Topic Model Evaluation Broken?: The Incoherence of Coherence." arXiv preprint arXiv:2107.02173 (2021).
+[13] Uchendu, Ikechukwu, Ted Xiao, Yao Lu, Banghua Zhu, Mengyuan Yan, Joséphine Simon, Matthew Bennice et al. "Jump-Start Reinforcement Learning." arXiv preprint arXiv:2204.02372 (2022).
 
-[12] Mathur, Nitika, Johnny Wei, Markus Freitag, Qingsong Ma, and Ondřej Bojar. "Results of the wmt20 metrics shared task." In Proceedings of the Fifth Conference on Machine Translation, pp. 688-725. 2020.
+[14] Campos, Víctor, Pablo Sprechmann, Steven Hansen, Andre Barreto, Steven Kapturowski, Alex Vitvitskyi, Adria Puigdomenech Badia, and Charles Blundell. "Beyond fine-tuning: Transferring behavior in reinforcement learning." arXiv preprint arXiv:2102.13515 (2021).
 
-[13] Marie, Benjamin, Atsushi Fujita, and Raphael Rubino. "Scientific credibility of machine translation research: A meta-evaluation of 769 papers." arXiv preprint arXiv:2106.15195 (2021).
+Reusing Offline Data 
 
-[14] Narang, S., Chung, H. W., Tay, Y., Fedus, W., Fevry, T., Matena, M., ... & Raffel, C. (2021). Do Transformer Modifications Transfer Across Implementations and Applications?. arXiv preprint arXiv:2102.11972.
+[15] Singh, Avi, Huihan Liu, Gaoyue Zhou, Albert Yu, Nicholas Rhinehart, and Sergey Levine. "Parrot: Data-Driven Behavioral Priors for Reinforcement Learning." ICLR (2021).
 
-HPO & NAS
+[16] Kostrikov, Ilya, Ashvin Nair, and Sergey Levine. "Offline Reinforcement Learning with Implicit Q-Learning." In International Conference on Learning Representations. 2022.
 
-[15] Li, L., & Talwalkar, A. (2019). Random Search and Reproducibility for Neural Architecture Search. arXiv e-prints, art. arXiv preprint arXiv:1902.07638.
+[17] Lee, Seunghyun, Younggyo Seo, Kimin Lee, Pieter Abbeel, and Jinwoo Shin. "Offline-to-online reinforcement learning via balanced replay and pessimistic q-ensemble." In Conference on Robot Learning, pp. 1702-1712. PMLR, 2022.
 
-[16] Probst, P., Boulesteix, A. L., & Bischl, B. (2019). Tunability: importance of hyperparameters of machine learning algorithms. The Journal of Machine Learning Research, 20(1), 1934-1965.
+[18] Lee, Kuang-Huei, Ofir Nachum, Mengjiao Yang, Lisa Lee, Daniel Freeman, Winnie Xu, Sergio Guadarrama et al. "Multi-Game Decision Transformers." arXiv preprint arXiv:2205.15241 (2022).
 
-[17] Sivaprasad, P. T., Mai, F., Vogels, T., Jaggi, M., & Fleuret, F. (2020, November). Optimizer benchmarking needs to account for hyperparameter tuning. In International Conference on Machine Learning (pp. 9036-9045). PMLR.
+Reusing Pretrained Representations
 
-Other
+[19] Schwarzer, Max, Nitarshan Rajkumar, Michael Noukhovitch, Ankesh Anand, Laurent Charlin, R. Devon Hjelm, Philip Bachman, and Aaron C. Courville. "Pretraining representations for data-efficient reinforcement learning." Advances in Neural Information Processing Systems 34 (2021): 12686-12699.
 
-[18] Bouthillier, X., Delaunay, P., Bronzi, M., Trofimov, A., Nichyporuk, B., Szeto, J., ... & Vincent, P. (2021). Accounting for variance in machine learning benchmarks. Proceedings of Machine Learning and Systems, 3.
+[20] Stooke, Adam, Kimin Lee, Pieter Abbeel, and Michael Laskin. "Decoupling representation learning from reinforcement learning." In International Conference on Machine Learning, pp. 9870-9879. PMLR, 2021.
 
-[19] D'Amour, A., Heller, K., Moldovan, D., Adlam, B., Alipanahi, B., Beutel, A., ... & Sculley, D. (2020). Underspecification presents challenges for credibility in modern machine learning. arXiv preprint arXiv:2011.03395.
+[21] Parisi, Simone, Aravind Rajeswaran, Senthil Purushwalkam, and Abhinav Gupta. "The unsurprising effectiveness of pre-trained vision models for control." arXiv preprint arXiv:2203.03580 (2022).
 
-[20] Dodge, J., Gururangan, S., Card, D., Schwartz, R. and Smith, N.A., 2019, January. Show Your Work: Improved Reporting of Experimental Results. In EMNLP/IJCNLP.
+[22] Touati, Ahmed, and Yann Ollivier. "Learning one representation to optimize all rewards." Advances in Neural Information Processing Systems 34 (2021): 13-23.
 
-[21] Kadlec, R., Bajgar, O., & Kleindienst, J. (2017). Knowledge base completion: Baselines strike back. arXiv preprint arXiv:1705.10744.
+[23] Liu, Hao, and Pieter Abbeel. "Behavior from the void: Unsupervised active pre-training." Advances in Neural Information Processing Systems 34 (2021): 18459-18473.
 
-[22] Musgrave, K., Belongie, S., & Lim, S. N. (2020, August). A metric learning reality check. In the European Conference on Computer Vision (pp. 681-699). Springer, Cham.
+Reusing LLMs
 
-[23] Raff, Edward. "A step toward quantifying independently reproducible machine learning research." Advances in Neural Information Processing Systems 32 (2019): 5485-5495.
+[24] Huang Wenlong, Xia Fei, Xiao Ted, Chan Harris, Liang Jackie, Florence Pete, Zeng Andy, et al. “Inner Monologue: Embodied Reasoning through Planning with Language Models”. arXiv preprintarXiv:2207.05608.
 
-[24] Schmidt, R. M., Schneider, F., & Hennig, P. (2021, July). Descending through a crowded valley-benchmarking deep learning optimizers. In the International Conference on Machine Learning (pp. 9367-9376). PMLR.
+[25] Zeng, Andy, et al. "Socratic models: Composing zero-shot multimodal reasoning with language." arXiv preprint arXiv:2204.00598 (2022).
+ 
+[26] Shridhar, Mohit, Lucas Manuelli, and Dieter Fox. "Cliport: What and where pathways for robotic manipulation." Conference on Robot Learning. PMLR, 2022.
+ 
+[27] Fan, Linxi, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, and Anima Anandkumar. "Minedojo: Building open-ended embodied agents with internet-scale knowledge." arXiv preprint arXiv:2206.08853 (2022).
+
+Reusing Skills
+
+[28] Matthews, Michael, Mikayel Samvelyan, Jack Parker-Holder, Edward Grefenstette, and Tim Rocktäschel. "Hierarchical Kickstarting for Skill Transfer in Reinforcement Learning." arXiv preprint arXiv:2207.11584 (2022).
+
+[29] Pertsch, Karl, Youngwoon Lee, Yue Wu, and Joseph J. Lim. "Guided reinforcement learning with learned skills." arXiv preprint arXiv:2107.10253 (2021).
+
+[30] Shi, Lucy Xiaoyang, Joseph J. Lim, and Youngwoon Lee. "Skill-based model-based reinforcement learning." arXiv preprint arXiv:2207.07560 (2022).
+
+Reusing Models
+
+[31] Sun, Yanchao, Ruijie Zheng, Xiyao Wang, Andrew Cohen, and Furong Huang. “Transfer RL across observation feature spaces via model-based regularization.” International Conference on Learning Representations (2022).
+
+[32] Sasso, Remo, Matthia Sabatelli, and Marco A. Wiering. "Fractional transfer learning for deep model-based reinforcement learning." arXiv preprint arXiv:2108.06526 (2021).
+
+[33] Sun, Yuewen, Kun Zhang, and Changyin Sun. "Model-Based Transfer Reinforcement Learning Based on Graphical Model Representations." IEEE Transactions on Neural Networks and Learning Systems (2021).
