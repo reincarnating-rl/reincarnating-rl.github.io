@@ -347,10 +347,11 @@ speakers: [
     'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
     'img_path':"https://clvrai.com/web_lim/pic/profile3.jpg",
     'title': 'Skill Reuse in Deep Reinforcement Learning',
-    'bio':'<p>Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>,
+    'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>,
     }
     &sergey_levine {
     'name': 'Sergey Levine',
+    'anchor': 'sergey_levine',
     'website': 'https://people.eecs.berkeley.edu/~svlevine/',
     'affiliations': 'UC Berkeley',
     'img_path': "assets/img/sergey.png",
