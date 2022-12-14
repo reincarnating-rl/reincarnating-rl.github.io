@@ -11,11 +11,10 @@ Reusing prior computation can further democratize RL research by allowing the br
 
 This workshop aims to bring further attention to this emerging paradigm of reusing prior computation in RL, discuss potential benefits and real-world applications, discuss its current limitations and challenges, and come up with concrete problem statements and evaluation protocols for the research community to work on.
 
-<center>
-<img src="https://reincarnating-rl.github.io/assets/img/RRL.gif" style="width:50%"; /> 
+<figure>
+<img src="https://reincarnating-rl.github.io/assets/img/RRL.gif" width="50%"  /> 
 <div style='text-align: center;'><small> Tabula rasa RL vs. Reincarnating RL (RRL). While tabula rasa RL focuses on learning from scratch, RRL is based on the premise of reusing prior computational work (e.g., prior learned agents) when training new agents or improving existing agents, even in the same environment. Source: <a href="[https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html](https://ai.googleblog.com/2022/11/beyond-tabula-rasa-reincarnating.html)">Google AI Blog. </a></small> </div>
-</center>
-
+</figure>
 
 
 # [Call for papers](/call-for-papers)
