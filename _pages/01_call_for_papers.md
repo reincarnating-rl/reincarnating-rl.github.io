@@ -7,7 +7,7 @@ nav: true
 horizontal: false
 ---
 
-We invite two types of papers -- opinion papers (up to 4 pages) and technical papers (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
+We invite two types of papers -- **opinion papers** (up to 4 pages) and **technical papers** (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
 
 - Developing methods for accelerating RL training depending on type or combination of prior computation available:
   -  Learned policies
@@ -60,9 +60,7 @@ papers into two groups with different presentation types – contributed talks (
 
 ### References
 
-<font size="9">
-
-[1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022.
+[1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022. 
 
 [2] Ilge Akkaya, Marcin Andrychowicz, Maciek Chociej, Mateusz Litwin, Bob McGrew, Arthur Petron, Alex Paino, Matthias Plappert, Glenn Powell, Raphael Ribas, et al.  Solving rubik’s cube with a robot hand. arXiv preprint arXiv:1910.07113, 2019.
 
@@ -78,13 +76,13 @@ papers into two groups with different presentation types – contributed talks (
 
 [8] Trofin, Mircea, Yundi Qian, Eugene Brevdo, Zinan Lin, Krzysztof Choromanski, and David Li. "Mlgo: a machine learning guided compiler optimizations framework." arXiv preprint arXiv:2101.04808 (2021).
 
-Reusing Network Weights for Fine-Tuning
+*Reusing Network Weights for Fine-Tuning*
 
 [9] Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien Ecoffet, Brandon Houghton, Raul Sampedro, and Jeff Clune.  Video pretraining (vpt): Learning to act by watching unlabeled online videos. arXiv preprint arXiv:2206.11795, 2022.
 
 [10] Julian, Ryan, Benjamin Swanson, Gaurav S. Sukhatme, Sergey Levine, Chelsea Finn, and Karol Hausman. "Never stop learning: The effectiveness of fine-tuning in robotic reinforcement learning." arXiv preprint arXiv:2004.10190 (2020)
 
-Reusing Learned Policies
+*Reusing Learned Policies*
 
 [11] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A., & Bellemare, M. G. (2022).  Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress. NeurIPS
 
@@ -94,7 +92,7 @@ Reusing Learned Policies
 
 [14] Campos, Víctor, Pablo Sprechmann, Steven Hansen, Andre Barreto, Steven Kapturowski, Alex Vitvitskyi, Adria Puigdomenech Badia, and Charles Blundell. "Beyond fine-tuning: Transferring behavior in reinforcement learning." arXiv preprint arXiv:2102.13515 (2021).
 
-Reusing Offline Data 
+*Reusing Offline Data*
 
 [15] Singh, Avi, Huihan Liu, Gaoyue Zhou, Albert Yu, Nicholas Rhinehart, and Sergey Levine. "Parrot: Data-Driven Behavioral Priors for Reinforcement Learning." ICLR (2021).
 
@@ -104,7 +102,7 @@ Reusing Offline Data
 
 [18] Lee, Kuang-Huei, Ofir Nachum, Mengjiao Yang, Lisa Lee, Daniel Freeman, Winnie Xu, Sergio Guadarrama et al. "Multi-Game Decision Transformers." arXiv preprint arXiv:2205.15241 (2022).
 
-Reusing Pretrained Representations
+*Reusing Pretrained Representations*
 
 [19] Schwarzer, Max, Nitarshan Rajkumar, Michael Noukhovitch, Ankesh Anand, Laurent Charlin, R. Devon Hjelm, Philip Bachman, and Aaron C. Courville. "Pretraining representations for data-efficient reinforcement learning." Advances in Neural Information Processing Systems 34 (2021): 12686-12699.
 
@@ -116,7 +114,7 @@ Reusing Pretrained Representations
 
 [23] Liu, Hao, and Pieter Abbeel. "Behavior from the void: Unsupervised active pre-training." Advances in Neural Information Processing Systems 34 (2021): 18459-18473.
 
-Reusing LLMs
+*Reusing LLMs*
 
 [24] Huang Wenlong, Xia Fei, Xiao Ted, Chan Harris, Liang Jackie, Florence Pete, Zeng Andy, et al. “Inner Monologue: Embodied Reasoning through Planning with Language Models”. arXiv preprintarXiv:2207.05608.
 
@@ -126,7 +124,7 @@ Reusing LLMs
  
 [27] Fan, Linxi, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, and Anima Anandkumar. "Minedojo: Building open-ended embodied agents with internet-scale knowledge." arXiv preprint arXiv:2206.08853 (2022).
 
-Reusing Skills
+*Reusing Skills*
 
 [28] Matthews, Michael, Mikayel Samvelyan, Jack Parker-Holder, Edward Grefenstette, and Tim Rocktäschel. "Hierarchical Kickstarting for Skill Transfer in Reinforcement Learning." arXiv preprint arXiv:2207.11584 (2022).
 
@@ -134,12 +132,10 @@ Reusing Skills
 
 [30] Shi, Lucy Xiaoyang, Joseph J. Lim, and Youngwoon Lee. "Skill-based model-based reinforcement learning." arXiv preprint arXiv:2207.07560 (2022).
 
-Reusing Models
+*Reusing Models*
 
 [31] Sun, Yanchao, Ruijie Zheng, Xiyao Wang, Andrew Cohen, and Furong Huang. “Transfer RL across observation feature spaces via model-based regularization.” International Conference on Learning Representations (2022).
 
 [32] Sasso, Remo, Matthia Sabatelli, and Marco A. Wiering. "Fractional transfer learning for deep model-based reinforcement learning." arXiv preprint arXiv:2108.06526 (2021).
 
 [33] Sun, Yuewen, Kun Zhang, and Changyin Sun. "Model-Based Transfer Reinforcement Learning Based on Graphical Model Representations." IEEE Transactions on Neural Networks and Learning Systems (2021).
-  
-</font>

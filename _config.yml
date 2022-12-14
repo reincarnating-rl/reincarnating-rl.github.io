@@ -346,16 +346,16 @@ speakers: [
     'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
     'img_path': "https://clvrai.com/web_lim/pic/profile3.jpg",
     'title': 'Skill Reuse in Deep Reinforcement Learning',
-    'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>,
-    }
+    'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>'
+    },
     &sergey_levine {'name': 'Sergey Levine',
     'anchor': 'sergey_levine',
     'website': 'https://people.eecs.berkeley.edu/~svlevine/',
     'affiliations': 'UC Berkeley',
-    'img_path': "assets/img/sergey.png",
+    'img_path': "assets/img/svlevine.jpeg",
      'title': 'Leveraging offline datasets / foundation models for real-world RL',
     'bio': '<p> Sergey is an Associate professor in the EECS department at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making. </p>',
-    }
+    },
     &speaker_3 {'name': 'TBD',
     'website': '',
     'anchor': 'speaker_3',
@@ -363,23 +363,23 @@ speakers: [
     'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
     'title': '',
     'bio': 'TBD',
-    }
+    },
     &speaker_4 {'name': 'TBD',
     'website': '',
     'anchor': 'speaker_4',
     'affiliations': 'TBD',
-    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=7",
     'title': '',
     'bio': 'TBD',
-    }
+    },
     &speaker_5 {'name': 'TBD',
     'website': '',
-    'anchor': 'speaker_5'
+    'anchor': 'speaker_5',
     'affiliations': 'TBD',
-    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=5",
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=8",
     'title': '',
     'bio': 'TBD',
-    }
+    },
 ]
 
 panels: [
@@ -391,28 +391,28 @@ panels: [
         {'name': 'Jeff Clune',
         'website': 'http://jeffclune.com/',
         'affiliations': 'UBC',
-        'img_path':"assets/img/jeffclune.png",
+        'img_path': "assets/img/jeffclune.jpeg",
         'bio': 'Jeff Clune is an Associate Professor of computer science at the University of British Columbia and Canada CIFAR AI Chair at the Vector Institute. Jeff focuses on deep learning, including deep reinforcement learning. Previously he was a research manager at OpenAI, a Senior Research Manager and founding member of Uber AI Labs (formed after Uber acquired a startup he helped lead), the Harris Associate Professor of Computer Science at the University of Wyoming, and a Research Scientist at Cornell University.'
         },
         {'name': 'Sergey Levine',
         'website': 'https://people.eecs.berkeley.edu/~svlevine/',
         'affiliations': 'UC Berkeley',
-        'img_path': "assets/img/sergey.png",
+        'img_path': "assets/img/svlevine.jpeg",
         'bio': 'Sergey is an Associate professor in the Department of Electrical Engineering and Computer Sciences at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making.'
         },
         {'name': 'Furong Huang',
         'website': 'http://furong-huang.com/',
         'affiliations': 'University of Maryland',
-        'img_path':"assets/img/furong.jpeg",
+        'img_path': "assets/img/furong.jpeg",
         'bio': 'Dr. Furong Huang is an Assistant Professor of the Department of Computer Science at the University of Maryland. Her research focuses on machine learning, high-dimensional statistics, non-convex optimization, spectral methods, reinforcement learning and deep learning theory.'
         },
         {'name': 'TBD',
         'website': '',
         'affiliations': '',
-        'img_path':"https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=8",
-        'bio': 'TBD'
+        'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=9",
+        'bio': 'TBD',
         }
-        ]
+        ],
     },
     {'name': 'Challenges & Open Problems in Reusing Prior Computation',
     'anchor': 'open_problems_rrl',
@@ -422,25 +422,25 @@ panels: [
         {'name': 'Marc G. Bellemare',
         'website': 'http://www.marcgbellemare.info/',
         'affiliations': 'Google Research, Brain Team',
-        'img_path':"assets/img/bellemare.jpg",
+        'img_path': "assets/img/bellemare.jpeg",
         'bio': 'Marc leads the RL efforts of the Google Brain team in Montréal, Canada. He is also a core industry member at Mila, where he advises graduate students. He obtained his PhD from the University of Alberta in Canada, proposing the use of Atari 2600 video games to benchmark progress in reinforcement learning research.'
         },
         {'name': 'Peter C Humphreys',
         'website': 'https://scholar.google.co.uk/citations?user=W_BEUq8AAAAJ&hl=en',
         'affiliations': 'DeepMind',
-        'img_path':"assets/img/michela_paganini.jpeg",
+        'img_path': "assets/img/peterc.jpeg",
         'bio': 'Peter is a researcher at Deepmind. His recent research has focused on developing agents that are able to solve tasks guided by human interactions and feedback. He has further research interests in RL and at the intersection of ML and neuroscience. Previously, he worked in experimental and theoretical quantum physics.'
         },
         {'name': 'Jim (Linxi) Fan',
         'website': 'https://jimfan.me/',
         'affiliations': 'Nvidia AI',
-        'img_path':"https://jimfan.me/authors/admin/avatar_hu861f70d497ce05786be4b5adffabb358_3515583_1000x1000_fill_q75_lanczos_center.jpg",
+        'img_path': 'assets/img/jimfan.jpeg',
         'bio': ' Jim is a research scientist at NVIDIA AI. His primary focus is to develop generally capable autonomous agents. To tackle this grand challenge, my research efforts span foundation models, policy learning, robotics, multimodal learning, and large-scale systems.'
         },
         {'name': 'Anna Goldie',
         'website': 'https://scholar.google.com/citations?user=cpz8CQoAAAAJ&hl=en',
         'affiliations': 'Anthropic / Stanford University',
-        'img_path':"assets/img/annagoldie.jpg",
+        'img_path': "assets/img/annagoldie.jpeg",
         'bio': 'TBD',
          },
         {'name': 'TBD',
