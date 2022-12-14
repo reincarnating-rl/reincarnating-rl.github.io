@@ -24,29 +24,30 @@ We invite two types of papers -- opinion papers (up to 4 pages) and technical pa
 - Properties of prior computational work needed to guarantee optimality of reincarnating RL methods
 - Connection to transfer learning, lifelong learning and data-driven simulation.
 
-## Special Track for benchmarking reincarnating RL.
+### Special Track for benchmarking reincarnating RL  
 
 Since the majority of RL benchmarks are designed with tabula rasa RL in mind, there is a lack of benchmarks for reincarnating RL that allow for reusing prior computation. To mitigate this difficulty, we plan to organize a workshop track for repurposing existing environments for reincarnating RL. Specifically, this track will require researchers to (1) open-source / release computational work (e.g, network checkpoints of pretrained agents, representations, models etc) on any RL environment and (2) demonstrate how we can reuse this prior computation for accelerating RL training. The submissions to this track can be accompanied either by a short report between 2 - 4 pages (lightweight) or a full workshop submission.
 
 **Infrastructure support for the special track**: To make it easy for releasing and using computational work, we will encourage submissions to use the <a href="https://huggingface.co/docs/hub/index"> Hugging Face Hub </a>, which is commonly used for NLP and vision models and has several features including: (1) free model hosting, (2)  built-in file versioning - even for huge files, (3) all public models are powered by the Inference API, and (4) in-browser widgets allow users to interact with hosted models directly. This track would be run with the official support of Hugging Face (Nathan Lambert) as well as maintainers of widely-used RL libraries, including SB3 (Antonin Raffin) and CleanRL (Costa Huang). Please reach out to them for any questions.
 
 
-# Submission Website 
+## Submission Website 
 <a href="??"> ?? </a>
 
-# Important Dates
+## Important Dates
 
-- Submission deadline: **Feb 15 AoE**
-- Accept/Reject Notification Date: 25th March
-- Camera Ready: 18th April
-- Workshop: 29th April 
+- Submission deadline: **Feb 15 AoE**, 2023
+- Accept/Reject Notification Date: March 3, 2023
+- Camera Ready: TBD
+- Workshop: 5th May, 2023
 
-# Submission instructions
+## Submission instructions
 
 We will accept technical papers of length up to 8 pages and opinion papers of length up to 4 pages,
-excluding references and appendices and position papers. In order to gather a wide variety of views,
-we will minimally constrain the format and topic areas for both types of papers. We will not accept
-work published in prior ML conferences including ICLR 2023, and encourage the submission of working
+excluding references and appendices and position papers. We also accept short papers on benchmarking 
+reincarnating RL, as indicated in the details for special track above. In order to gather a wide variety
+of views, we will minimally constrain the format and topic areas for both types of papers. We will not 
+accept work published in prior ML conferences including ICLR 2023, and encourage the submission of working
 papers. The submission process will be handled via CMT in a double-blind review process. Papers can
 utilize any style file they want (for e.g., ICML, NeurIPS, ICLR) and should be anonymized for double
 blind review.
@@ -56,7 +57,7 @@ provide a recorded video and a slide deck describing their work. We plan to divi
 papers into two groups with different presentation types – contributed talks (10 min), and posters
 (two poster sessions) – based on novelty, technical merit, and alignment to the workshop’s goals.
 
-# References
+### References
 
 [1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022.
 
