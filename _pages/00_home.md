@@ -16,6 +16,8 @@ This workshop aims to bring further attention to this emerging paradigm of reusi
     <figcaption style='text-align: center'><small> Tabula rasa RL vs. Reincarnating RL (RRL). While tabula rasa RL focuses on learning from scratch, RRL is based on the premise of reusing prior computational work (e.g., prior learned agents) when training new agents or improving existing agents, even in the same environment. Source: <a href="[https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html](https://ai.googleblog.com/2022/11/beyond-tabula-rasa-reincarnating.html)">Google AI Blog </a></small></figcaption>
 </figure>
 
+<img src="https://reincarnating-rl.github.io/assets/img/RRL.gif" />
+
 
 # [Call for papers](/call-for-papers)
 
