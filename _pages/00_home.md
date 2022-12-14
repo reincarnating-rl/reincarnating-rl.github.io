@@ -7,7 +7,7 @@ nav: true
 horizontal: false
 ---
 
-This workshop aims to bring further attention to the emerging paradigm of reusing prior computation in RL, referred to as reincarnating RL, discuss potential benefits and real-world applications, discuss its current limitations and challenges, and come up with concrete problem statements and evaluation protocols for the research community to work on.
+This in-person workshop at ICLR 2023 aims to bring further attention to the emerging paradigm of reusing prior computation in RL, which we refer to as reincarnating RL, discuss potential benefits and real-world applications, discuss its current limitations and challenges, and come up with concrete problem statements and evaluation protocols for the research community to work on.
 
 <figure>
   <center> <img src="https://reincarnating-rl.github.io/assets/img/RRL.gif" width="80%"  /> </center>
