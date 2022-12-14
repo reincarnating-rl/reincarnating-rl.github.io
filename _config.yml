@@ -320,11 +320,11 @@ organizers: [
     {'name': 'Rishabh Agarwal',
     'website': 'https://agarwl.github.io',
     'affiliations': 'Google Brain',
-    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=2"},
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=1"},
     {'name': 'Ted Xiao',
     'website': 'https://tedxiao.me/',
     'affiliations': 'Google Robotics',
-    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=4"},
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=2"},
     {'name': 'Yanchao Sun',
     'website': 'https://ycsun2017.github.io/',
     'affiliations': 'University of Maryland, College Park',
@@ -340,7 +340,7 @@ organizers: [
 ]
 
 speakers: [
-    &joseph_lim {
+    {
     'name': 'Joseph Lim',
     'anchor': 'joseph_lim',
     'website': 'https://clvrai.com/web_lim/',
@@ -358,27 +358,30 @@ speakers: [
      'title': 'Leveraging offline datasets / foundation models for real-world RL'
     'bio': '<p> Sergey is an Associate professor in the EECS department at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making. </p>',
     }
-    {
+    &speaker_3 {
     'name': 'TBD',
     'website': '',
+    'anchor': 'speaker_3'
     'affiliations': 'TBD',
-    'img_path': "",
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
     'title': ''
     'bio': 'TBD'
     }
-    {
+    &speaker_4 {
     'name': 'TBD',
     'website': '',
+    'anchor': 'speaker_4'
     'affiliations': 'TBD',
-    'img_path': "",
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
     'title': ''
     'bio': 'TBD'
     }
-    {
+    &speaker_5 {
     'name': 'TBD',
     'website': '',
+    'anchor': 'speaker_5'
     'affiliations': 'TBD',
-    'img_path': "",
+    'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=5",
     'title': ''
     'bio': 'TBD'
     }
@@ -395,23 +398,23 @@ panels: [
         'affiliations': 'UBC',
         'img_path':"assets/img/jeffclune.png",
         'bio': 'Jeff Clune is an Associate Professor of computer science at the University of British Columbia and Canada CIFAR AI Chair at the Vector Institute. Jeff focuses on deep learning, including deep reinforcement learning. Previously he was a research manager at OpenAI, a Senior Research Manager and founding member of Uber AI Labs (formed after Uber acquired a startup he helped lead), the Harris Associate Professor of Computer Science at the University of Wyoming, and a Research Scientist at Cornell University.'
-        }
+        },
         {'name': 'Sergey Levine',
         'website': 'https://people.eecs.berkeley.edu/~svlevine/',
         'affiliations': 'UC Berkeley',
         'img_path': "assets/img/sergey.png",
         'bio': 'Sergey is an Associate professor in the Department of Electrical Engineering and Computer Sciences at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making.'
-        }
+        },
         {'name': 'Furong Huang',
         'website': 'http://furong-huang.com/',
         'affiliations': 'University of Maryland',
         'img_path':"assets/img/furong.jpeg",
         'bio': 'Dr. Furong Huang is an Assistant Professor of the Department of Computer Science at the University of Maryland. Her research focuses on machine learning, high-dimensional statistics, non-convex optimization, spectral methods, reinforcement learning and deep learning theory.'
-        }
+        },
         {'name': 'TBD',
         'website': '',
         'affiliations': '',
-        'img_path':"",
+        'img_path':"https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=8",
         'bio': 'TBD'
         }
         ]
@@ -426,19 +429,19 @@ panels: [
         'affiliations': 'Google Research, Brain Team',
         'img_path':"assets/img/bellemare.jpg",
         'bio': 'Marc leads the RL efforts of the Google Brain team in Montréal, Canada. He is also a core industry member at Mila, where he advises graduate students. He obtained his PhD from the University of Alberta in Canada, proposing the use of Atari 2600 video games to benchmark progress in reinforcement learning research.'
-        }
+        },
         {'name': 'Peter C Humphreys',
         'website': 'https://scholar.google.co.uk/citations?user=W_BEUq8AAAAJ&hl=en',
         'affiliations': 'DeepMind',
         'img_path':"assets/img/michela_paganini.jpeg",
         'bio': 'Peter is a researcher at Deepmind. His recent research has focused on developing agents that are able to solve tasks guided by human interactions and feedback. He has further research interests in RL and at the intersection of ML and neuroscience. Previously, he worked in experimental and theoretical quantum physics.'
-        }
+        },
         {'name': 'Jim (Linxi) Fan',
         'website': 'https://jimfan.me/',
         'affiliations': 'Nvidia AI',
         'img_path':"https://jimfan.me/authors/admin/avatar_hu861f70d497ce05786be4b5adffabb358_3515583_1000x1000_fill_q75_lanczos_center.jpg",
         'bio': ' Jim is a research scientist at NVIDIA AI. His primary focus is to develop generally capable autonomous agents. To tackle this grand challenge, my research efforts span foundation models, policy learning, robotics, multimodal learning, and large-scale systems.'
-        }   
+        },
         {'name': 'Anna Goldie',
         'website': 'https://scholar.google.com/citations?user=cpz8CQoAAAAJ&hl=en',
         'affiliations': 'Anthropic / Stanford University',
@@ -448,7 +451,7 @@ panels: [
         {'name': 'TBD',
         'website': '',
         'affiliations': '',
-        'img_path':"",
+        'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=10",
         'bio': 'TBD'
         }
         ]
