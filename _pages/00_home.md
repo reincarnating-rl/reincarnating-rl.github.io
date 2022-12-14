@@ -78,6 +78,34 @@ Submission Site: <a href="??"> ?? </a>
 
 {%- endfor %}
 
+## RRL Benchmarking Track Supporters
+
+Please see [call for papers](/call-for-papers) for more details about the special track on benchmarking reincarnating RL.
+
+<table style="width:75%">
+  <tr>
+    {% for organizer in site.st_organizers limit:3 %}
+        <td style="text-align:center"><img class="thumbnail" src="{{ organizer.img_path }}" alt=""></td>
+    {% endfor %}
+  </tr>
+  <tr>
+    {% for organizer in site.st_organizers limit:3 %}
+        <td style="text-align:center"><a href="{{ organizer.website }}"> {{ organizer.name }}</a> <br> {{ organizer.affiliations }} </td>
+    {% endfor %} 
+  </tr>
+  <tr>
+    {% for organizer in site.st_organizers offset:3 %}
+        <td style="text-align:center"><img class="thumbnail" src="{{ organizer.img_path }}" alt=""></td>
+    {% endfor %}
+  </tr>
+  <tr>
+    {% for organizer in site.st_organizers offset:3 %}
+        <td style="text-align:center"><a href="{{ organizer.website }}"> {{ organizer.name }}</a> <br> {{ organizer.affiliations }} </td>
+    {% endfor %} 
+  </tr>
+</table>
+
+
 # Organizers
 
 <table style="width:75%">

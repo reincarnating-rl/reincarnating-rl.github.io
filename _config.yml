@@ -339,6 +339,23 @@ organizers: [
     'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=4"},
 ]
 
+
+st_organizers: [
+    {'name': 'Nathan Lambert',
+    'website': 'https://www.natolambert.com/',
+    'affiliations': 'Hugging Face',
+    'img_path': "/assets/img/natolambert.jpeg"},
+    {'name': 'Costa Huang',
+    'website': 'https://costa.sh/',
+    'affiliations': 'CleanRL, Drexel University',
+    'img_path': "/assets/img/costa.jpeg" },
+    {'name': 'Antonin Raffin',
+    'website': 'https://araffin.github.io/',
+    'affiliations': 'SB3, German Aerospace Center',
+    'img_path': "/assets/img/antonin.jpeg"},
+]
+
+
 speakers: [
     {'name': 'Joseph Lim',
     'anchor': 'joseph_lim',
