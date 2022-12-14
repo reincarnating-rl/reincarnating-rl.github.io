@@ -19,23 +19,6 @@ This workshop aims to bring further attention to this emerging paradigm of reusi
 
 # [Call for papers](/call-for-papers)
 
-We invite two types of papers -- opinion papers (up to 4 pages) and technical papers (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
-
-- Developing methods for accelerating RL training depending on type or combination of prior computation available:
-  -  Learned policies
-  -  Offline datasets 
-  -  Pretrained dynamics models
-  -  Foundation models or LLMs
-  -  Pretrained representations
-  -  Learned Skills
-- Challenges for dealing with suboptimality of prior computational work
-- Democratizing large-scale RL problems by releasing prior computation and formalizing the corresponding reincarnating RL setting.
-- Algorithmic decisions and challenges associated with suboptimality of prior computational work
-- Evaluation protocols, frameworks and standardized benchmarks for leveraging prior computation in RL research
-- Real-world / Large-scale applications of reincarnating RL
-- Properties of prior computational work needed to guarantee optimality of reincarnating RL methods
-- Connection to transfer learning, lifelong learning and data-driven simulation.
-
 Submission Site: <a href="??"> ?? </a>
 
 
@@ -120,4 +103,4 @@ Submission Site: <a href="??"> ?? </a>
   </tr>
 </table>
 
-For any queries, please reach out to the organizers at <a href="mailto:ml-eval-iclr2022@googlegroups.com"> ml-eval-iclr2022@googlegroups.com </a>.
+For any queries, please reach out to the organizers at <a href="mailto:reuserlworkshop@googlegroups.com"> reuserlworkshop@googlegroups.com  </a>.
