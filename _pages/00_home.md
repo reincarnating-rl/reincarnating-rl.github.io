@@ -7,31 +7,31 @@ nav: true
 horizontal: false
 ---
 
+Reusing prior computation can further democratize RL research by allowing the broader community to tackle complex RL problems without requiring excessive computational resources. Furthermore, real-world RL use cases are common in scenarios where prior computational work is available, making reincarnating RL important to study. Additionally, reincarnating RL can enable a benchmarking paradigm where researchers continually improve and update existing trained agents, especially on problems where improving performance has real-world impact. However, except for some large-scale RL efforts with ad hoc approaches, the RL community has only recently started focusing on reincarnating RL as a research problem in its own right. 
 
-The aim of the workshop is to discuss and propose standards for evaluating ML research,
-in order to better identify promising new directions and to accelerate real progress in the field of
-ML research. The problem requires understanding the kinds of practices that add or detract from the
-generalizability or reliability of results reported, and incentives for researchers to follow best
-practices. We may draw inspiration from adjacent scientific fields, from statistics, or history of
-science. Acknowledging that there is no consensus on best practices for ML, the workshop will have a
-focus on panel discussions and a few invited talks representing a variety of perspectives. The call
-to papers will welcome opinion papers as well as more technical papers on evaluation of ML methods.
-We plan to summarize the findings and topics that emerged during our workshop in a short report.
+This workshop aims to bring further attention to this emerging paradigm of reusing prior computation in RL, discuss potential benefits and real-world applications, discuss its current limitations and challenges, and come up with concrete problem statements and evaluation protocols for the research community to work on.
 
 
 # [Call for papers](/call-for-papers)
 
-We invite two types of papers -- opinion papers (up to 4 pages) stating positions on the topics
-related to those listed above, and methodology papers (up to 8 pages excluding references) about
-evaluation in ML. These topics may include: 
+We invite two types of papers -- opinion papers (up to 4 pages) and technical papers (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
 
-- Establishing benchmarking standards for ML research
-- Reliable tools/protocols for benchmarking and evaluation
-- Understanding and defining reproducibility for machine learning
-- Meta analyses thoroughly evaluating existing claims across papers
-- Incentives for doing better evaluation and reporting results
+- Developing methods for accelerating RL training depending on type or combination of prior computation available:
+  -  Learned policies
+  -  Offline datasets 
+  -  Pretrained dynamics models
+  -  Foundation models or LLMs
+  -  Pretrained representations
+  -  Learned Skills
+- Challenges for dealing with suboptimality of prior computational work
+- Democratizing large-scale RL problems by releasing prior computation and formalizing the corresponding reincarnating RL setting.
+- Algorithmic decisions and challenges associated with suboptimality of prior computational work
+- Evaluation protocols, frameworks and standardized benchmarks for leveraging prior computation in RL research
+- Real-world / Large-scale applications of reincarnating RL
+- Properties of prior computational work needed to guarantee optimality of reincarnating RL methods
+- Connection to transfer learning, lifelong learning and data-driven simulation.
 
-Submission Site: <a href="https://cmt3.research.microsoft.com/SMILES2022/"> https://cmt3.research.microsoft.com/SMILES2022 </a>
+Submission Site: <a href="??"> ?? </a>
 
 
 # [Speakers](/talks)
