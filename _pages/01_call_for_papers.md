@@ -57,7 +57,10 @@ provide a recorded video and a slide deck describing their work. We plan to divi
 papers into two groups with different presentation types – contributed talks (10 min), and posters
 (two poster sessions) – based on novelty, technical merit, and alignment to the workshop’s goals.
 
+
 ### References
+
+<font size="9">
 
 [1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022.
 
@@ -138,3 +141,5 @@ Reusing Models
 [32] Sasso, Remo, Matthia Sabatelli, and Marco A. Wiering. "Fractional transfer learning for deep model-based reinforcement learning." arXiv preprint arXiv:2108.06526 (2021).
 
 [33] Sun, Yuewen, Kun Zhang, and Changyin Sun. "Model-Based Transfer Reinforcement Learning Based on Graphical Model Representations." IEEE Transactions on Neural Networks and Learning Systems (2021).
+  
+</font>
