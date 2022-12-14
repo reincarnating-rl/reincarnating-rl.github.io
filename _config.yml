@@ -340,50 +340,45 @@ organizers: [
 ]
 
 speakers: [
-    {
-    'name': 'Joseph Lim',
+    {'name': 'Joseph Lim',
     'anchor': 'joseph_lim',
     'website': 'https://clvrai.com/web_lim/',
     'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
-    'img_path':"https://clvrai.com/web_lim/pic/profile3.jpg",
+    'img_path': "https://clvrai.com/web_lim/pic/profile3.jpg",
     'title': 'Skill Reuse in Deep Reinforcement Learning',
     'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>,
     }
-    &sergey_levine {
-    'name': 'Sergey Levine',
+    &sergey_levine {'name': 'Sergey Levine',
     'anchor': 'sergey_levine',
     'website': 'https://people.eecs.berkeley.edu/~svlevine/',
     'affiliations': 'UC Berkeley',
     'img_path': "assets/img/sergey.png",
-     'title': 'Leveraging offline datasets / foundation models for real-world RL'
+     'title': 'Leveraging offline datasets / foundation models for real-world RL',
     'bio': '<p> Sergey is an Associate professor in the EECS department at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making. </p>',
     }
-    &speaker_3 {
-    'name': 'TBD',
+    &speaker_3 {'name': 'TBD',
     'website': '',
-    'anchor': 'speaker_3'
+    'anchor': 'speaker_3',
     'affiliations': 'TBD',
     'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
-    'title': ''
-    'bio': 'TBD'
+    'title': '',
+    'bio': 'TBD',
     }
-    &speaker_4 {
-    'name': 'TBD',
+    &speaker_4 {'name': 'TBD',
     'website': '',
-    'anchor': 'speaker_4'
+    'anchor': 'speaker_4',
     'affiliations': 'TBD',
     'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=6",
-    'title': ''
-    'bio': 'TBD'
+    'title': '',
+    'bio': 'TBD',
     }
-    &speaker_5 {
-    'name': 'TBD',
+    &speaker_5 {'name': 'TBD',
     'website': '',
     'anchor': 'speaker_5'
     'affiliations': 'TBD',
     'img_path': "https://thecatapi.com/api/images/get?format=src&type=gif&timestamp=5",
-    'title': ''
-    'bio': 'TBD'
+    'title': '',
+    'bio': 'TBD',
     }
 ]
 
