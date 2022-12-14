@@ -24,7 +24,7 @@ We invite two types of papers -- opinion papers (up to 4 pages) and technical pa
 - Properties of prior computational work needed to guarantee optimality of reincarnating RL methods
 - Connection to transfer learning, lifelong learning and data-driven simulation.
 
-# Special Track for benchmarking reincarnating RL.
+## Special Track for benchmarking reincarnating RL.
 
 Since the majority of RL benchmarks are designed with tabula rasa RL in mind, there is a lack of benchmarks for reincarnating RL that allow for reusing prior computation. To mitigate this difficulty, we plan to organize a workshop track for repurposing existing environments for reincarnating RL. Specifically, this track will require researchers to (1) open-source / release computational work (e.g, network checkpoints of pretrained agents, representations, models etc) on any RL environment and (2) demonstrate how we can reuse this prior computation for accelerating RL training. The submissions to this track can be accompanied either by a short report between 2 - 4 pages (lightweight) or a full workshop submission.
 
