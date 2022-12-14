@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: ICLR2023
-description: To address these inefficiencies of tabula rasa RL and help unlock the full potential of deep RL, this workshop would focus on the alternative paradigm of leveraging prior computational work, referred to as reincarnating RL, to accelerate training across design iterations of an RL agent or when moving from one agent to another. 
+description: To address the inefficiencies of tabula rasa RL and help unlock the full potential of deep RL, this workshop would focus on the alternative paradigm of leveraging prior computational work, referred to as reincarnating RL, to accelerate training across design iterations of an RL agent or when moving from one agent to another. 
 nav: true
 horizontal: false
 ---
