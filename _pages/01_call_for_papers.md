@@ -7,7 +7,6 @@ nav: true
 horizontal: false
 ---
 
-
 We invite two types of papers -- opinion papers (up to 4 pages) and technical papers (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
 
 - Developing methods for accelerating RL training depending on type or combination of prior computation available:
@@ -31,10 +30,6 @@ Since the majority of RL benchmarks are designed with tabula rasa RL in mind, th
 
 **Infrastructure support for the special track**: To make it easy for releasing and using computational work, we will encourage submissions to use the <a href="https://huggingface.co/docs/hub/index"> Hugging Face Hub </a>, which is commonly used for NLP and vision models and has several features including: (1) free model hosting, (2)  built-in file versioning - even for huge files, (3) all public models are powered by the Inference API, and (4) in-browser widgets allow users to interact with hosted models directly. This track would be run with the official support of Hugging Face (Nathan Lambert) as well as maintainers of widely-used RL libraries, including SB3 (Antonin Raffin) and CleanRL (Costa Huang). Please reach out to them for any questions.
 
-
-We invite two types of papers -- opinion papers (up to 4 pages) stating positions on the topics
-related to those listed above, and methodology papers (up to 8 pages excluding references) about
-evaluation in ML. These topics may include: 
 
 # Submission Website 
 <a href="??"> ?? </a>
