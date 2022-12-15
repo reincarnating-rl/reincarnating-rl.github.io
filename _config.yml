@@ -361,7 +361,7 @@ speakers: [
     'anchor': 'joseph_lim',
     'website': 'https://clvrai.com/web_lim/',
     'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
-    'img_path': "https://clvrai.com/web_lim/pic/profile3.jpg",
+    'img_path': "assets/img/joseph.jpeg",
     'title': 'Skill Reuse in Deep Reinforcement Learning',
     'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>'
     },
