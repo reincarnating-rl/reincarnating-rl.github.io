@@ -19,7 +19,7 @@ This in-person workshop at ICLR 2023 aims to bring further attention to the emer
 
 # [Call for papers](/call-for-papers)
 
-Submission Site: <a href="??"> ?? </a>
+Submission Site: <a href="??"> TBD </a>
 
 
 # [Speakers](/talks)
