@@ -139,3 +139,6 @@ papers into two groups with different presentation types – contributed talks (
 [32] Sasso, Remo, Matthia Sabatelli, and Marco A. Wiering. "Fractional transfer learning for deep model-based reinforcement learning." arXiv preprint arXiv:2108.06526 (2021).
 
 [33] Sun, Yuewen, Kun Zhang, and Changyin Sun. "Model-Based Transfer Reinforcement Learning Based on Graphical Model Representations." IEEE Transactions on Neural Networks and Learning Systems (2021).
+
+
+ *PS: The above references are only representative of relevant work and are not meant to be exhaustive. Please feel free to create a pull request for adding a relevant paper to the references above to the website <a href="https://github.com/reincarnating-rl/reincarnating-rl.github.io/blob/master/_pages/01_call_for_papers.md"> github repository</a>.*
