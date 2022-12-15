@@ -25,7 +25,7 @@ horizontal: false
   </tr>
   <tr style='border-top: 0px;'>
      <td style='border-top: 0px;' colspan=2>
-      <h5>{{ speaker.time }}, 29th April 2022 (UTC)</h5>
+<!--       <h5>{{ speaker.time }}, 29th April 2022 (UTC)</h5> -->
      </td>
   </tr>
   <tr>
