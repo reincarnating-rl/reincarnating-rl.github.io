@@ -26,22 +26,22 @@ Submission Site: <a href="??"> TBD </a>
 
 <table style="width:75%">
   <tr>
-    {% for speaker in site.speakers limit:4 %}
+    {% for speaker in site.speakers limit:3 %}
         <td style="text-align:center"><img class="thumbnail" src="{{ speaker.img_path }}" alt=""></td>
     {% endfor %}
   </tr>
   <tr>
-    {% for speaker in site.speakers limit:4 %}
+    {% for speaker in site.speakers limit:3 %}
         <td style="text-align:center"><a href="/talks#{{ speaker.anchor}}"> {{ speaker.name }}</a> <br> {{ speaker.affiliations }} </td>
     {% endfor %} 
   </tr>
   <tr>
-    {% for speaker in site.speakers offset:4 %}
+    {% for speaker in site.speakers offset:3 %}
         <td style="text-align:center"><img class="thumbnail" src="{{ speaker.img_path }}" alt=""></td>
     {% endfor %}
   </tr>
   <tr>
-    {% for speaker in site.speakers offset:4 %}
+    {% for speaker in site.speakers offset:3 %}
         <td style="text-align:center"><a href="/talks#{{ speaker.anchor}}"> {{ speaker.name }}</a> <br> {{ speaker.affiliations }} </td>
     {% endfor %} 
   </tr>
