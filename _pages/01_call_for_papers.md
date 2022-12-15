@@ -32,7 +32,7 @@ Since the majority of RL benchmarks are designed with tabula rasa RL in mind, th
 
 
 ## Submission Website 
-<a href="??"> ?? </a>
+<a href="??"> TBD </a>
 
 ## Important Dates
 
