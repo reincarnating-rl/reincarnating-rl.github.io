@@ -19,7 +19,7 @@ This inaugural workshop at ICLR 2023 (in-person) aims to bring further attention
 
 # [Call for papers](/call-for-papers)
 
-Submission Site: <a href="??"> TBD </a>
+Submission Site: <a href="https://openreview.net/group?id=ICLR.cc/2023/Workshop/RRL"> https://openreview.net/group?id=ICLR.cc/2023/Workshop/RRL </a>
 
 
 # [Speakers](/talks)
