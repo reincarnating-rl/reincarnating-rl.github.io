@@ -2,7 +2,7 @@
 layout: page
 title: Call for Papers
 permalink: /call-for-papers/
-description: Learning “tabula rasa”, that is, from scratch without much previously learned knowledge, is the dominant paradigm in reinforcement learning (RL) research. While learning tabula rasa works well for small-scale research domains, it is the exception rather than the norm for solving larger-scale problems [1, 2, 3, 4, 5, 6, 7, 8]. Large-scale RL systems often undergo multiple design or algorithmic changes during their development cycle and use ad hoc approaches for incorporating these changes without retraining from scratch, which would have been prohibitively expensive. Additionally, the inefficiency of tabula rasa RL typically excludes the majority of the RL community outside certain resource-rich labs from tackling computationally demanding problems. To address these inefficiencies of tabula rasa RL, this workshop would focus on the alternative paradigm of leveraging prior computational work, referred to as reincarnating RL [11], to accelerate training across design iterations of an RL agent or when moving from one agent to another. Recently, the research community has started to focus on this emerging paradigm, by leveraging computational work in the form of learned network weights (for fine-tuning) [9-10], learned policies [11-14], offline data [15-18], pretrained representations [19-23], LLMs [24-27], learned skills [28-30] or dynamics models [31-33] etc. Thus, it is evident that there is an interest in this important topic of leveraging prior computation in RL, to which our workshop can bring further attention. 
+description: Learning “tabula rasa”, that is, from scratch without much previously learned knowledge, is the dominant paradigm in reinforcement learning (RL) research. While learning tabula rasa works well for small-scale research domains, it is the exception rather than the norm for solving larger-scale problems [1, 2, 3, 4, 5, 6, 7, 8]. Large-scale RL systems often undergo multiple design or algorithmic changes during their development cycle and use ad hoc approaches for incorporating these changes without retraining from scratch, which would have been prohibitively expensive. Additionally, the inefficiency of tabula rasa RL typically excludes the majority of the RL community outside certain resource-rich labs from tackling computationally demanding problems. To address these inefficiencies of tabula rasa RL, this workshop would focus on the alternative paradigm of leveraging prior computational work, referred to as reincarnating RL [0], to accelerate training across design iterations of an RL agent or when moving from one agent to another. Recently, the research community has started to focus on this emerging paradigm, by leveraging computational work in the form of learned network weights (for fine-tuning) [9-10], learned policies [11-14], offline data [15-18], pretrained representations [19-23], LLMs [24-27], learned skills [28-30] or dynamics models [31-33] etc. Thus, it is evident that there is an interest in this important topic of leveraging prior computation in RL, to which our workshop can bring further attention. 
 nav: true
 horizontal: false
 ---
@@ -62,6 +62,12 @@ papers into two groups with different presentation types – contributed talks (
 
 ### References
 
+*Reincarnating RL*
+
+[0] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A., & Bellemare, M. G. (2022).  Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress. NeurIPS
+
+*Large-scale / Real-world RL*
+
 [1] Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, et al.  Do as I can, not as I say:  Grounding language in robotic affordances. arXiv preprint arXiv:2204.01691, 2022. 
 
 [2] Ilge Akkaya, Marcin Andrychowicz, Maciek Chociej, Mateusz Litwin, Bob McGrew, Arthur Petron, Alex Paino, Matthias Plappert, Glenn Powell, Raphael Ribas, et al.  Solving rubik’s cube with a robot hand. arXiv preprint arXiv:1910.07113, 2019.
@@ -86,7 +92,7 @@ papers into two groups with different presentation types – contributed talks (
 
 *Reusing Learned Policies*
 
-[11] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A., & Bellemare, M. G. (2022).  Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress. NeurIPS
+[11] Schmitt, Simon, et al. "Kickstarting deep reinforcement learning." arXiv preprint arXiv:1803.03835 (2018).
 
 [12]  Lee, Alex X., Coline Devin, Jost Tobias Springenberg, Yuxiang Zhou, Thomas Lampe, Abbas Abdolmaleki, and Konstantinos Bousmalis. "How to spend your robot time: Bridging kickstarting and offline reinforcement learning for vision-based robotic manipulation." arXiv preprint arXiv:2205.03353 (2022).
 
@@ -143,4 +149,4 @@ papers into two groups with different presentation types – contributed talks (
 [33] Sun, Yuewen, Kun Zhang, and Changyin Sun. "Model-Based Transfer Reinforcement Learning Based on Graphical Model Representations." IEEE Transactions on Neural Networks and Learning Systems (2021).
 
 
- *PS: The above references are only representative of relevant work and are not meant to be exhaustive. Please feel free to create a pull request for adding a relevant paper to the references above to the website <a href="https://github.com/reincarnating-rl/reincarnating-rl.github.io/blob/master/_pages/01_call_for_papers.md"> github repository</a>.*
+*PS: The above references are only representative of relevant work and are not meant to be exhaustive. Please feel free to create a pull request for adding a relevant paper to the references above to the website <a href="https://github.com/reincarnating-rl/reincarnating-rl.github.io/blob/master/_pages/01_call_for_papers.md"> github repository</a>.*
