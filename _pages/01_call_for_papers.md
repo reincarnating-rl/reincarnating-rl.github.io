@@ -7,7 +7,7 @@ nav: true
 horizontal: false
 ---
 
-We invite two types of papers -- **opinion papers** (up to 4 pages) and **technical papers** (up to 9 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
+We invite two types of papers -- **opinion papers** (up to 4 pages) and **technical papers** (up to 8 pages excluding references and appendix) about reusing prior computation in RL. In particular, we are interested in bringing together researchers and practitioners to discuss questions on theoretical, empirical and practical aspects of reusing prior computation in RL, including but not limited to:
 
 - Developing methods for accelerating RL training depending on type or combination of prior computation available:
   -  Learned policies
