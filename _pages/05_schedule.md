@@ -7,7 +7,7 @@ nav: true
 horizontal: true
 ---
 
-## The workshop will take place on May 5th during ICLR 2023 in Kigali, Rwanda.
+## The workshop will take place on May 4th during ICLR 2023 in Kigali, Rwanda.
 
 <!-- <table style="width:100%">
         <tr>
