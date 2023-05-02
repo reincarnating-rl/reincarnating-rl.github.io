@@ -377,7 +377,7 @@ speakers: [
     'website': 'https://deeplearningindaba.com/speakers/avishkar-bhoopchand/',
     'anchor': 'avishkar_bhoopchand',
     'affiliations': 'DeepMind',
-    'img_path': "assets/img/avishkar.png",
+    'img_path': "assets/img/avishkar.jpg",
     'title': 'Human-Timescale Adaptation in an Open-Ended Task Space',
     'bio': 'Avishkar is currently a Research Engineer at Google DeepMind. He is part of the Deep Learning Indaba team and contributed to the advancement of Machine Learning in Africa.',
     },
