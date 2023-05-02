@@ -13,8 +13,8 @@ Schedule: [https://iclr.cc/virtual/2023/workshop/12833](https://iclr.cc/virtual/
 
 <table style="width:100%">
         <tr>
-        <th style="text-align:right; width:15%">Time (UTC)</th>
-        <th style="text-align:left; width: 85%">Session</th>
+        <th style="text-align:right; width:25%">Time (UTC)</th>
+        <th style="text-align:left; width: 75%">Session</th>
         </tr>
     {% for time in site.data.schedule %}
         <tr>
