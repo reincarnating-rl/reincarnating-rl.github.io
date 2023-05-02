@@ -1,18 +1,13 @@
 start,end,categories,title,desc
-12h00,12h15,Welcome Note,,
-12h15,13h00,Invited Talk:,Thomas Wolf,The challenges of open evaluation at Hugging Face: from open-source evaluation libraries to evaluating +30k hosted models and models of 176B parameters
-13h00,13h45,Invited Talk:,Frank Schneider,Improving Optimizer Evaluation in Deep Learning
-13h45,14h30,Invited Talk:,Rotem Dror,A Statistical Analysis of Automatic Evaluation Metrics for Summarization
-14h30,14h50,Contributed Talks (x2),,
-14h50,15h50,Panel:,Reproducibility and Rigor in ML,"Rotem Dror, Sara Hooker, Koustuv Sinha, Frank Schneider and Gaël Varoquaux"
-15h50,16h35,1st Poster Session,,
-16h35,17h20,Invited Talk:,James Evans,AI Advance and the Paradox of Sustained Innovation
-17h20,18h20,Panel:,Slow vs Fast Science,"Michela Paganini, Chelsea Finn, James Evans, Russel Poldrack and Oriol Vinyals"
-18h20,18h50,Coffee Break,,
-18h50,19h35,Invited Talk:,Melanie Mitchell,Beyond Accuracy: How to Evaluate Understanding on Conceptual Abstraction Benchmarks
-19h35,20h20,Invited Talk:,Katherine Heller,A framework for improved ML evaluations
-20h20,21h05,Invited Talk:,Corinna Cortes,Inconsistency in Conference Peer Review: Revisiting the 2014 NeurIPS Experiment
-21h05,21h35,Contributed Talks (x3),,
-21h35,22h35,Panel:,Incentives for better evaluation,"Corinna Cortes, John Langford, Kyunghyun Cho and Yoshua Bengio"
-22h35,23h35,2nd Poster Session,,
-23h35,23h50,Closing Remarks,,
+9:00am,9:10am,Introduction,,
+9:10am,9:40am,Invited Talk:,Joseph Lim,Skill Reuse in Deep Reinforcement Learning
+9:40am,10:00am,Oral Presentations (x2),,
+10:00am,10:30am,Invited Talk:,Avishkar Bhoopchand,Human-Timescale Adaptation in an Open-Ended Task Space
+10:30am,11:05am,Spotlight Presentations (x7),,
+11:05am,12:30pm,Lunch Break,,
+12:30pm,2:30pm,Poster Session,,
+2:30pm,3:00pm,Oral Presentations (x3),,
+3:00pm,3:30pm,Invited Talk:,Anna Goldie,RL for Chip Design / LLMs
+3:30pm,4:00pm,Invited Talk:,Sergey Levine,Leveraging Offline Datasets / Foundation Models for Real-World RL
+4:00pm,4:50pm,Panel:,Challenges & Open Problems in Reusing Prior Computation,"Joseph Lim, Furong Huang, Marc G Bellemare, Avishkar Bhoopchand, Linxi Fan and Jeff Clune"
+4:50pm,5:00pm,Closing Remarks,,
