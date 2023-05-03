@@ -13,7 +13,7 @@ horizontal: false
   <h2>{{ section }}</h2>
   {%- for paper in site.papers %}
 
-  {%- if section == 'Orals' and paper.oral == "true" %}
+  {%- if section == 'Orals' and paper.status == "oral" %}
 <div class='paper'>
   <h4 class='pdf' id="{{ paper.id}}">
     <!-- <div class='pdf'>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</div> -->
@@ -35,7 +35,7 @@ horizontal: false
     {{ paper.abstract }}
   </p>
 </div>
-  {%- elsif section == 'Posters' and paper.oral == "false" %}
+  {%- elsif section == 'Posters' and paper.status == "poster" %}
 <div class='paper'>
   <h4 class='pdf' id="{{ paper.id}}">
     <!-- <div class='pdf'>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</div> -->
