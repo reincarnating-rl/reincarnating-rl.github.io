@@ -19,7 +19,8 @@ horizontal: false
     <!-- <div class='pdf'>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</div> -->
     <!-- <div class='video'>[<a href='{{ paper.video }}'>Video</a>]</div> -->
     {{ paper.title}}
-    <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a>
+<!--     <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a> -->
+    <a href='{{ paper.forum }}'><div class="anchor"></div></a>
   </h4>
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
@@ -41,7 +42,8 @@ horizontal: false
     <!-- <div class='pdf'>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</div> -->
     <!-- <div class='video'>[<a href='{{ paper.video }}'>Video</a>]</div> -->
     {{ paper.title}}
-    <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a>
+<!--     <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a> -->
+    <a href='{{ paper.forum }}'><div class="anchor"></div></a>
   </h4>
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
@@ -64,7 +66,8 @@ horizontal: false
     <!-- <div class='pdf'>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</div> -->
     <!-- <div class='video'>[<a href='{{ paper.video }}'>Video</a>]</div> -->
     {{ paper.title}}
-    <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a>
+<!--     <a href='/accepted-papers#{{ paper.id}}'><div class="anchor"></div></a> -->
+    <a href='{{ paper.forum }}'><div class="anchor"></div></a>
   </h4>
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
