@@ -357,29 +357,21 @@ st_organizers: [
 
 
 speakers: [
-    {'name': 'Joseph Lim',
-    'anchor': 'joseph_lim',
-    'website': 'https://clvrai.com/web_lim/',
-    'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
-    'img_path': "assets/img/joseph.jpeg",
-    'title': 'Skill Reuse in Deep Reinforcement Learning',
-    'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>'
-    },
-    &sergey_levine {'name': 'Sergey Levine',
-    'anchor': 'sergey_levine',
-    'website': 'https://people.eecs.berkeley.edu/~svlevine/',
-    'affiliations': 'UC Berkeley',
-    'img_path': "assets/img/svlevine.jpeg",
-     'title': 'Leveraging offline datasets / foundation models for real-world RL',
-    'bio': '<p> Sergey is an Associate professor in the EECS department at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making. </p>',
-    },
-    &avishkar_bhoopchand {'name': 'Avishkar Bhoopchand',
+    {'name': 'Avishkar Bhoopchand',
     'website': 'https://deeplearningindaba.com/speakers/avishkar-bhoopchand/',
     'anchor': 'avishkar_bhoopchand',
     'affiliations': 'DeepMind',
     'img_path': "assets/img/avishkar.jpg",
     'title': 'Human-Timescale Adaptation in an Open-Ended Task Space',
     'bio': 'Avishkar is currently a Research Engineer at Google DeepMind. He is part of the Deep Learning Indaba team and contributed to the advancement of Machine Learning in Africa.',
+    },
+    &joseph_lim {'name': 'Joseph Lim',
+    'anchor': 'joseph_lim',
+    'website': 'https://clvrai.com/web_lim/',
+    'affiliations': 'Korea Advanced Institute of Science and Technology (KAIST)',
+    'img_path': "assets/img/joseph.jpeg",
+    'title': 'Skill Reuse in Deep Reinforcement Learning',
+    'bio': '<p> Joseph is an Associate Professor in the Kim Jaechul School of Artificial Intelligence at KAIST, where he leads the <a href="https://www.clvrai.com/"> Cognitive Learning for Vision and Robotics lab </a>. </p>'
     },
     &furong_huang {'name': 'Furong Huang',
     'website': 'http://furong-huang.com/',
@@ -396,6 +388,14 @@ speakers: [
     'title': 'RL for Chip Design / LLMs',
     'bio': 'Anna is currently a researcher at Anthropic. Previously, she was a Staff Research Scientist at Google Brain and co-founder/lead of the ML for Systems team, where her research focus was on developing deep RL approaches to problems in computer systems, particularly chip design.',
      },
+    &sergey_levine {'name': 'Sergey Levine',
+    'anchor': 'sergey_levine',
+    'website': 'https://people.eecs.berkeley.edu/~svlevine/',
+    'affiliations': 'UC Berkeley',
+    'img_path': "assets/img/svlevine.jpeg",
+     'title': 'Leveraging offline datasets / foundation models for real-world RL',
+    'bio': '<p> Sergey is an Associate professor in the EECS department at UC Berkeley. In his research, he focuses on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, and a range of other domains that require autonomous decision making. </p>',
+    }
 ]
 
 panels: [
