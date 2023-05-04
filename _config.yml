@@ -381,8 +381,14 @@ speakers: [
     'title': 'Human-Timescale Adaptation in an Open-Ended Task Space',
     'bio': 'Avishkar is currently a Research Engineer at Google DeepMind. He is part of the Deep Learning Indaba team and contributed to the advancement of Machine Learning in Africa.',
     },
-    &anna_goldie {
-    'name': 'Anna Goldie',
+    &furong_huang {'name': 'Furong Huang',
+    'website': 'http://furong-huang.com/',
+    'affiliations': 'University of Maryland',
+    'img_path': "assets/img/furong.jpeg",
+    'title': 'Adaptable Reinforcement Learning in An Ever-Changing World',
+    'bio': 'Dr. Furong Huang is an Assistant Professor of the Department of Computer Science at the University of Maryland. Her research focuses on machine learning, high-dimensional statistics, non-convex optimization, spectral methods, reinforcement learning and deep learning theory.'
+    },
+    &anna_goldie {'name': 'Anna Goldie',
     'website': 'https://scholar.google.com/citations?user=cpz8CQoAAAAJ&hl=en',
     'affiliations': 'Anthropic / Stanford',
     'anchor': 'anna_goldie',
