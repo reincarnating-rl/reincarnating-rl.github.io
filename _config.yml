@@ -507,13 +507,14 @@ accepted_posters: [
 ]
 
 papers: [
+        [
         {
             "id": "3",
             "status": "oral",
             "title": "Read and Reap the Rewards: Learning to Play Atari with the Help of Instruction Manuals",
             "abstract": "High sample complexity has long been a challenge for RL. On the other hand, human learn to perform tasks not only from interaction or demonstrations, but also by reading unstructured text documents, e.g., instruction manuals. Instruction manuals and wiki pages are among the most abundant data that could inform agents of valuable features and policies or task-specific environmental dynamics and reward structures. Therefore, we hypothesize that the ability to utilize human-written instruction manuals to assist learning policies for specific tasks should lead to a more efficient and better-performing agent.  We propose the Read and Reward framework. Read and Reward speeds up RL algorithms on Atari games by reading manuals released by the Atari game developers. Our framework consists of a QA Extraction module that extracts and summarizes relevant information from the manual and a Reasoning module that evaluates object-agent interactions based on information from the manual. Auxiliary reward is then provided to a standard A2C RL agent, when interaction is detected. When assisted by our design, A2C improves on 4 games in the Atari environment with sparse rewards, and requires 1000x less training frames compared to the previous SOTA Agent 57 on Skiing, the hardest game in Atari.",
             "authors": "Yue Wu|Yewen Fan|Paul Pu Liang|Amos Azaria|Yuanzhi Li|Tom Mitchell",
-            "pdf": "/pdf/bfdaed894dc7aaf84f65876a4bf8088c4036bc17.pdf",
+            "pdf": "https://openreview.net/pdf?id=I_GUngvVNz",
             "forum": "https://openreview.net/forum?id=I_GUngvVNz",
             "video": "",
             "poster": ""
@@ -535,7 +536,7 @@ papers: [
             "title": "Do Embodied Agents Dream of Pixelated Sheep?: Embodied Decision Making using Language Guided World Modelling",
             "abstract": "Reinforcement learning (RL) agents typically learn tabula rasa, without prior knowledge of the world, which makes learning complex tasks with sparse rewards difficult. If initialized with knowledge of high-level subgoals and transitions between subgoals, RL agents could utilize this Abstract World Model (AWM) for planning and exploration. We propose using few-shot large language models (LLMs) to hypothesize an AWM, that is tested and verified during exploration, to improve sample efficiency in embodied RL agents. Our DECKARD agent applies LLM-guided exploration to item crafting in Minecraft in two phases: (1) the Dream phase where the agent uses an LLM to decompose a task into a sequence of subgoals, the hypothesized AWM; and (2) the Wake phase where the agent learns a modular policy for each subgoal and verifies or corrects the hypothesized AWM on the basis of its experiences. Our method of hypothesizing an AWM with LLMs and then verifying the AWM based on agent experience not only increases sample efficiency over contemporary methods by an order of magnitude but is also robust to and corrects errors in the LLM, successfully blending noisy internet-scale information from LLMs with knowledge grounded in environment dynamics.",
             "authors": "Kolby Nottingham|Prithviraj Ammanabrolu|Alane Suhr|Yejin Choi|Hannaneh Hajishirzi|Sameer Singh|Roy Fox",
-            "pdf": "/pdf/8ac2aa35f914e54a187b8705c9351621b7680ec4.pdf",
+            "pdf": "https://openreview.net/pdf?id=Z_qiOvqvnBl",
             "forum": "https://openreview.net/forum?id=Z_qiOvqvnBl",
             "video": "",
             "poster": ""
@@ -546,7 +547,7 @@ papers: [
             "title": "Instruction-Finetuned Foundation Models for Multimodal Web Navigation",
             "abstract": "We propose an instruction-aligned multimodal agent for autonomous web navigation -- i.e., sequential decision making tasks employing a computer interface. Our approach is based on supervised finetuning of vision and language foundation models on a large corpus of web data consisting of webpage screenshots and HTML. Specifically, we use vision transformers on sequences of web page screenshots to extract patch-level image features. These features are concatenated with embedding of tokens in HTML documents. Using an instruction-finetuned large language model, we jointly encode both vision and HTML modalities and decode web actions such as click and type. We show that our method outperforms previous approaches by a significant margin, even in handling out-of-distribution HTML and compositional tasks. On the MiniWoB benchmark, we improve previous approaches using only HTML input by more than 17.7%, even surpassing the performance of RL-finetuned models. On the recent WebShop benchmark, our 3-billion-parameter model achieves superior performance to the existing state-of-the-art PaLM-540B. We also collect 347K gold demonstrations using our trained models, 29 times larger than prior work, and make them available to promote future research in this area. We believe that our work is a step towards building capable and generalist decision making agents for computer interface.",
             "authors": "Hiroki Furuta|Ofir Nachum|Kuang-Huei Lee|Yutaka Matsuo|Shixiang Shane Gu|Izzeddin Gur",
-            "pdf": "/pdf/739f59a7e7673c5008e9743d41bbf9197b23d3c3.pdf",
+            "pdf": "https://drive.google.com/file/d/1bE_8oJIN830UiqJVuElxtV9CnEIFFaVv/view?usp=share_link",
             "forum": "https://openreview.net/forum?id=aGANaA6v5e",
             "video": "",
             "poster": ""
@@ -557,7 +558,7 @@ papers: [
             "title": "Co-Imitation Learning without Expert Demonstration",
             "abstract": "Imitation learning is a primary approach to improve the efficiency of reinforcement learning by exploiting the expert demonstrations. However, in many real scenarios, obtaining expert demonstrations could be extremely expensive or even impossible. To overcome this challenge, in this paper, we propose a novel learning framework called Co-Imitation Learning (CoIL) to exploit the past good experiences of the agents themselves without expert demonstration. Specifically, we train two different agents via letting each of them alternately explore the environment and exploit the peer agent\u2019s experience. While the experiences could be valuable or misleading, we propose to estimate the potential utility of each piece of experience with the expected gain of the value function. Thus the agents can selectively imitate from each other by emphasizing the more useful experiences while filtering out noisy ones. Experimental results on various tasks show significant superiority of the proposed Co-Imitation Learning framework, validating that the agents can benefit from each other without external supervision.",
             "authors": "Kun-Peng Ning|Hu Xu|Kun Zhu|Sheng-Jun Huang",
-            "pdf": "/pdf/1cb878644921981a2c4d602cf16961c752d10814.pdf",
+            "pdf": "https://openreview.net/pdf?id=H9ulBifsnMm",
             "forum": "https://openreview.net/forum?id=H9ulBifsnMm",
             "video": "",
             "poster": ""
@@ -568,7 +569,7 @@ papers: [
             "title": "Accelerating Policy Gradient by Estimating Value Function from Prior Computation in Deep Reinforcement Learning",
             "abstract": "This paper investigates the use of prior computation to estimate the value function to improve sample efficiency in on-policy policy gradient methods in reinforcement learning. Our approach is to estimate the value function from prior computations, such as from the Q-network learned in DQN or the value function trained for different but related environments. In particular, we learn a new value function for the target task while combining it with a value estimate from the prior computation. Finally, the resulting value function is used as a baseline in the policy gradient method. This use of a baseline has the theoretical property of reducing variance in gradient computation and thus improving sample efficiency. The experiments show the successful use of prior value estimates in various settings and improved sample efficiency in several tasks.",
             "authors": "Md Masudur Rahman|Yexiang Xue",
-            "pdf": "/pdf/f8a9ffc15620017a80a8744c5bb56dc482e22e1f.pdf",
+            "pdf": "https://drive.google.com/file/d/1w7hwAkBMhyY-76gEEI8uJY9h4J3yzshi/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=sOgyNWyN6Gu",
             "video": "",
             "poster": ""
@@ -579,9 +580,9 @@ papers: [
             "title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
             "abstract": "A compelling use case of offline reinforcement learning (RL) is to obtain an effective policy initialization from existing datasets, which allows efficient fine-tuning with limited amounts of active online interaction in the environment. Many existing offline RL methods tend to exhibit poor fine-tuning performance. On the contrary, while naive online RL methods achieve compelling empirical performance, online methods suffer from a large sample complexity without a good policy initialization from the offline data. Our goal in this paper is to devise an approach for learning an effective offline initialization that also unlocks fast online fine-tuning capabilities. Our approach, calibrated Q-learning (Cal-QL) accomplishes this by learning a conservative value function initialization that underestimates the value of the learned policy from offline data, while also being calibrated, meaning that the learned value estimation still upper-bounds the ground-truth value of some other reference policy (e.g., the behavior policy). Both theoretically and empirically, we show that imposing these conditions speeds up online fine-tuning, and brings in benefits of the offline data. In practice, Cal-QL can be implemented on top of existing offline RL methods without any extra hyperparameter tuning. Empirically, Cal-QL outperforms state-of-the-art methods on a wide range of fine-tuning tasks from both state and visual observations, across several benchmarks.",
             "authors": "Mitsuhiko Nakamoto|Yuexiang Zhai|Anikait Singh|Yi Ma|Chelsea Finn|Aviral Kumar|Sergey Levine",
-            "pdf": "/pdf/557ee79471d3d83b42f1c3baf3ae7d0092bdb1f1.pdf",
+            "pdf": "https://drive.google.com/file/d/117ojhFe5cJrn2zL204l5LtQA5yJ2lWwI/view?usp=share_link",
             "forum": "https://openreview.net/forum?id=PhCWNmatOX",
-            "video": "",
+            "video": "https://nakamotoo.github.io/projects/Cal-QL/video",
             "poster": ""
         },
         {
@@ -601,9 +602,9 @@ papers: [
             "title": "Successor Feature Representations",
             "abstract": "Transfer in Reinforcement Learning aims to improve learning performance on target tasks using knowledge from experienced source tasks. Successor Representations (SR) and their extension Successor Features (SF) are prominent transfer mechanisms in domains where reward functions change between tasks. They reevaluate the expected return of previously learned policies in a new target task to transfer their knowledge. The SF framework extended SR by linearly decomposing rewards into successor features and a reward weight vector allowing their application in high-dimensional tasks. But this came with the cost of having a linear relationship between reward functions and successor features, limiting its application to tasks where such a linear relationship exists. We propose a novel formulation of SR based on learning the cumulative discounted probability of successor features, called Successor Feature Representations (SFR). Crucially, SFR allows to reevaluate the expected return of policies for general reward functions. We introduce different SFR variations, prove its convergence, and provide a guarantee on its transfer performance. Experimental evaluations based on SFR with function approximation demonstrate its advantage over SF not only for general reward functions, but also in the case of linearly decomposable reward functions.",
             "authors": "Chris Reinke|Xavier Alameda-Pineda",
-            "pdf": "/pdf/51cbcf74f7754de31cc58688cea290eb96f82b5e.pdf",
+            "pdf": "https://openreview.net/pdf?id=rVW8nh3V5z",
             "forum": "https://openreview.net/forum?id=rVW8nh3V5z",
-            "video": "",
+            "video": "http://tiny.cc/8xd6vz",
             "poster": ""
         },
         {
@@ -612,7 +613,7 @@ papers: [
             "title": "Revisiting Behavior Regularized Actor-Critic",
             "abstract": "In recent years, significant advancements have been made in offline reinforcement learning, with a growing number of novel algorithms of varying degrees of complexity. Despite this progress, the significance of specific design choices and the application of common deep learning techniques remains unexplored. In this work, we demonstrate that it is possible to achieve state-of-the-art performance on the D4RL benchmark through a simple set of modifications to the minimalist offline RL approach and careful hyperparameter search. Furthermore, our ablations emphasize the importance of minor design choices and hyperparameter tuning while highlighting the untapped potential of using deep learning techniques in offline reinforcement learning.",
             "authors": "Denis Tarasov|Vladislav Kurenkov|Alexander Nikulin|Sergey Kolesnikov",
-            "pdf": "/pdf/80b3df216abae76a98a02a2bd2d02beb85328056.pdf",
+            "pdf": "https://drive.google.com/file/d/1M2ATB0anaoCmwGKdOPsZf828C8jHZwFV/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=RXxIY5aNSMW",
             "video": "",
             "poster": ""
@@ -645,7 +646,7 @@ papers: [
             "title": "PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav",
             "abstract": "We study ObjectGoal Navigation - where a virtual robot situated in a new environment is asked to navigate to an object. Prior work has shown that imitation learning (IL) on a dataset of human demonstrations achieves promising results. However, this has limitations \u2212 1) IL policies generalize poorly to new states, since the training mimics actions not their consequences, and 2) collecting demonstrations is expensive. On the other hand, reinforcement learning (RL) is trivially scalable, but requires careful reward engineering to achieve desirable behavior. We present a two-stage learning scheme for IL pretraining on human demonstrations followed by RL-finetuning. This leads to a PIRLNav policy that advances the state-of-the-art on ObjectNav from 60.0% success rate to 65.0% (+5.0% absolute). Using this IL\u2192RL training recipe, we present a rigorous empirical analysis of design choices. First, we investigate whether human demonstrations can be replaced with `free' (automatically generated) sources of demonstrations, e.g. shortest paths (SP) or task-agnostic frontier exploration (FE) trajectories. We find that IL\u2192RL on human demonstrations outperforms IL\u2192RL on SP and FE trajectories, even when controlled for the same IL-pretraining success on TRAIN, and even on a subset of VAL episodes where IL-pretraining success favors the SP or FE policies. Next, we study how RL-finetuning performance scales with the size of the IL pretraining dataset. We find that as we increase the size of the IL-pretraining dataset and get to high IL accuracies, the improvements from RL-finetuning are smaller, and that 90% of the performance of our best IL\u2192RL policy can be achieved with less than half the number of IL demonstrations. Finally, we analyze failure modes of our ObjectNav policies, and present guidelines for further improving them.",
             "authors": "Ram Ramrakhya|Dhruv Batra|Erik Wijmans|Abhishek Das",
-            "pdf": "/pdf/a3bec7ca8bb5deedf8a2d161fc245ab5c93ab1d7.pdf",
+            "pdf": "https://openreview.net/pdf?id=9m3GFgAT9C2",
             "forum": "https://openreview.net/forum?id=9m3GFgAT9C2",
             "video": "",
             "poster": ""
@@ -656,7 +657,7 @@ papers: [
             "title": "TGRL: Teacher Guided Reinforcement Learning Algorithm for POMDPs",
             "abstract": "In many real-world problems, an agent must operate in an uncertain and partially observable environment. Due to partial information, a policy directly trained to operate from these restricted observations tends to perform poorly. In some scenarios, during training more information about the environment is available, which can be utilized to find a superior policy. Because this privileged information is unavailable at deployment, such a policy cannot be deployed. The $\\textit{teacher-student}$ paradigm overcomes this challenge by using actions of privileged (or $\\textit{teacher}$) policy as the target for training the deployable (or $\\textit{student}$) policy operating from the restricted observation space using supervised learning. However, due to information asymmetry, it is not always feasible for the student to perfectly mimic the teacher. We provide a principled solution to this problem, wherein the student policy dynamically balances between following the teacher's guidance and utilizing reinforcement learning to solve the partially observed task directly. The proposed algorithm is evaluated on diverse domains and fares favorably against strong baselines. ",
             "authors": "Idan Shenfeld|Zhang-Wei Hong|Aviv Tamar|Pulkit Agrawal",
-            "pdf": "/pdf/baa484a742e6e987937c75f042c1c91129d101bf.pdf",
+            "pdf": "https://openreview.net/pdf?id=kTqjkIvjj7",
             "forum": "https://openreview.net/forum?id=kTqjkIvjj7",
             "video": "",
             "poster": ""
@@ -667,9 +668,9 @@ papers: [
             "title": "Merging Decision Transformers: Weight Averaging for Forming Multi-Task Policies",
             "abstract": "Recent work has shown the promise of creating generalist, transformer-based, policies for language, vision, and sequential decision-making problems. To create such models, we generally require centralized training objectives, data, and compute. It is of interest if we can more flexibly create generalist policies, by merging together multiple, task-specific, individually trained policies. In this work, we take a preliminary step in this direction through merging, or averaging, subsets of Decision Transformers in weight space trained on different MuJoCo locomotion problems, forming multi-task models without centralized training. We also propose that when merging policies, we can obtain better results if all policies start from common, pre-trained initializations, while also co-training on shared auxiliary tasks during problem-specific finetuning. In general, we believe research in this direction can help democratize and distribute the process of which forms generally capable agents. ",
             "authors": "Daniel Lawson|Ahmed H Qureshi",
-            "pdf": "/pdf/74050f36720b33df879f8b897523b18f8dad30f8.pdf",
+            "pdf": "https://drive.google.com/file/d/1DCupfcmVP-pHRmF1h2VMTbQZFh4_Utb-/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=7NcrDeuMM8",
-            "video": "",
+            "video": " https://youtu.be/nZCgTzlWRFo",
             "poster": ""
         },
         {
@@ -678,9 +679,9 @@ papers: [
             "title": "On The Role of Forgetting in Fine-Tuning Reinforcement Learning Models",
             "abstract": "Recently, foundation models have achieved remarkable results in fields such as computer vision and language processing. Although there has been a significant push to introduce similar approaches in reinforcement learning, these have not yet succeeded on a comparable scale. In this paper, we take a step towards understanding and closing this gap by highlighting one of the problems specific to foundation RL models, namely the data shift occurring during fine-tuning. We show that fine-tuning on compositional tasks, where parts of the environment might only be available after a long training period, is inherently prone to catastrophic forgetting. In such a scenario, a pre-trained model might forget useful knowledge before even seeing parts of the state space it can solve. We provide examples of both a grid world and realistic robotic scenarios where catastrophic forgetting occurs. Finally, we show how this problem can be mitigated by using tools from continual learning. We discuss the potential impact of this finding and propose further research directions.",
             "authors": "Maciej Wolczyk|Bart\u0142omiej Cupia\u0142|Micha\u0142 Zaj\u0105c|Razvan Pascanu|\u0141ukasz Kuci\u0144ski|Piotr Mi\u0142o\u015b",
-            "pdf": "/pdf/9cbdcc22199e059eec9081637b9c840070e8934e.pdf",
+            "pdf": "https://drive.google.com/file/d/1tOEY06Jd4S9L54-3Lx7ajg3Q6giKsLid/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=zmXJUKULDzh",
-            "video": "",
+            "video": "https://youtu.be/j36xYTzphuE",
             "poster": ""
         },
         {
@@ -689,7 +690,7 @@ papers: [
             "title": "Deep Reinforcement Learning with Plasticity Injection",
             "abstract": "A growing body of evidence suggests that neural networks employed in deep reinforcement learning (RL) gradually lose their plasticity, the ability to learn from new data; however, the analysis and mitigation of this phenomenon is hampered by the complex relationship between plasticity, exploration, and performance in RL. This paper introduces plasticity injection, a minimalistic intervention that increases the network plasticity without changing the number of trainable parameters or biasing the predictions. The applications of this intervention are two-fold: first, as a diagnostic tool --- if injection increases the performance, we may conclude that an agent's network was losing its plasticity. This tool allows us to identify a subset of Atari environments where the lack of plasticity causes performance plateaus, motivating future studies on understanding and combating plasticity loss. Second, plasticity injection can be used to improve the computational efficiency of RL training if the agent has to re-learn from scratch due to exhausted plasticity or by growing the agent's network dynamically without compromising performance. The results on Atari show that plasticity injection attains stronger performance compared to alternative methods while being computationally efficient.",
             "authors": "Evgenii Nikishin|Junhyuk Oh|Georg Ostrovski|Clare Lyle|Razvan Pascanu|Will Dabney|Andre Barreto",
-            "pdf": "/pdf/aa58f913f305b47ca558a14e33e08cd2c962dc3b.pdf",
+            "pdf": "https://openreview.net/pdf?id=O9cJADBZT1",
             "forum": "https://openreview.net/forum?id=O9cJADBZT1",
             "video": "",
             "poster": ""
@@ -700,9 +701,9 @@ papers: [
             "title": "Action Inference by Maximising Evidence: Zero-Shot Imitation from Observation with World Models",
             "abstract": "Unlike most reinforcement learning agents which require an unrealistic amount of environment interactions to learn a new behaviour, humans excel at learning quickly by merely observing and imitating others. This ability highly depends on the fact that humans have a model of their own embodiment that allows them to infer the most likely actions that led to the observed behaviour. In this paper, we propose Action Inference by Maximising Evidence (AIME) to replicate this behaviour using world models. AIME consists of two distinct phases. In the first phase, the agent learns a world model from its past experience to understand its own body by maximising the evidence lower bound (ELBO). While in the second phase, the agent is given some observation-only demonstrations of an expert performing a novel task and tries to imitate the expert's behaviour. AIME achieves this by defining a policy as an inference model and maximising the evidence of the demonstration under the policy and world model. Our method is \"zero-shot\" in the sense that it does not require further interactions with the environment after given the demonstration. We empirically validate the zero-shot imitation performance of our method on the Walker of the DeepMind Control Suite and find it outperforms the state-of-the-art baselines. We also find AIME with image observations still matches the performance of the baseline observing the true low-dimensional state of the environment.",
             "authors": "Xingyuan Zhang|Philip Becker-Ehmck|Patrick van der Smagt|Maximilian Karl",
-            "pdf": "/pdf/8df701e15ed4dac62729775e2080426ce5bcfa87.pdf",
+            "pdf": "https://drive.google.com/file/d/1_m6igP8d4OIbLpZiNdJOYeBHr_OTgorI/view?usp=share_link",
             "forum": "https://openreview.net/forum?id=vjSwY0mftz",
-            "video": "",
+            "video": "https://youtu.be/TyxJtko2WCc",
             "poster": ""
         },
         {
@@ -722,7 +723,7 @@ papers: [
             "title": "Learning How to Infer Partial MDPs for In-Context Adaptation and Exploration",
             "abstract": "To generalize across tasks, an agent should acquire knowledge from past tasks that facilitate adaptation and exploration in future tasks. We focus on the problem of in-context adaptation and exploration, where an agent only relies on context, i.e., history of states, actions and/or rewards, rather than gradient-based updates. Posterior sampling (extension of Thompson sampling) is a promising approach, but it requires Bayesian inference and dynamic programming, which often involve unknowns (e.g., a prior) and costly computations. To address these difficulties, we use a transformer to learn an inference process from training tasks and consider a hypothesis space of partial models, represented as small Markov decision processes that are cheap for dynamic programming. In our version of the Symbolic Alchemy benchmark, our method's adaptation speed and exploration-exploitation balance approach those of an exact posterior sampling oracle. We also show that even though partial models exclude relevant information from the environment, they can nevertheless lead to good policies.",
             "authors": "Chentian Jiang|Nan Rosemary Ke|Hado van Hasselt",
-            "pdf": "/pdf/09cf5ee928daf06435b3601720318ea65771928c.pdf",
+            "pdf": "https://openreview.net/pdf?id=TdKW3Evujf",
             "forum": "https://openreview.net/forum?id=TdKW3Evujf",
             "video": "",
             "poster": ""
@@ -733,7 +734,7 @@ papers: [
             "title": "Beyond Temporal Credit Assignment in Reinforcement Learning",
             "abstract": "In reinforcement learning, traditional value-based methods rely heavily on time as the main proxy for propagating information across the state space. This often results in slow learning and does not scale to large and complex environments. Here, we propose to leverage prior information about the structure of the the environment to assign credit non-temporally to improve learning efficiency. Specifically, we introduce the concept of structural neighbours, which are sets of states with similar semantic structures and which have equivalent values under the optimal policy. We augment traditional value-based RL methods (TD(0), Dyna and Dueling DQN) with a learning mechanism based on structural neighbours. Our empirical results show that by incorporating structural updates, learning efficiency can be greatly improved on a variety of environments ranging from simple tabular grid worlds to those which require function approximation, including the complex and high-dimensional game of Solitaire.",
             "authors": "Sephora Madjiheurem|Kim Stachenfeld|Peter Battaglia|Jessica B Hamrick",
-            "pdf": "/pdf/713cbe7db99df19aa7b4aac484d60669ddd8b23d.pdf",
+            "pdf": "https://openreview.net/pdf?id=wEb6VYsaYx",
             "forum": "https://openreview.net/forum?id=wEb6VYsaYx",
             "video": "",
             "poster": ""
@@ -744,7 +745,7 @@ papers: [
             "title": "Reduce, Reuse, Recycle: Selective Reincarnation in Multi-Agent Reinforcement Learning",
             "abstract": "`Reincarnation' in reinforcement learning has been proposed as a formalisation of reusing prior computation from past experiments when training an agent in an environment. In this paper, we present a brief foray into the paradigm of reincarnation in the multi-agent (MA) context. We consider the case where only some agents are reincarnated, whereas the others are trained from scratch -- selective reincarnation. In the fully-cooperative MA setting with heterogeneous agents, we demonstrate that selective reincarnation can lead to higher returns than training fully from scratch, and faster convergence than training with full reincarnation. However, the choice of which agents to reincarnate in a heterogeneous system is vitally important to the outcome of the training -- in fact, a poor choice can lead to considerably worse results than the alternatives. We argue that a rich field of work exists here, and we hope that our effort catalyses further energy in bringing the topic of reincarnation to the multi-agent realm.",
             "authors": "Juan Claude Formanek|Callum Rhys Tilbury|Jonathan Phillip Shock|Kale-ab Tessera|Arnu Pretorius",
-            "pdf": "/pdf/3a7925f046766ec11e7561dc58d637d14252ef20.pdf",
+            "pdf": "https://drive.google.com/file/d/1Y2VccYyGP-H7HCejbU0T2mRaFZHLw5i8/",
             "forum": "https://openreview.net/forum?id=_Nz9lt2qQfV",
             "video": "",
             "poster": ""
@@ -766,9 +767,9 @@ papers: [
             "title": "Towards A Unified Agent with Foundation Models",
             "abstract": "Language Models and Vision Language Models have recently demonstrated unprecedented capabilities in terms of understanding human intentions, reasoning, scene understanding, and planning-like behaviour, in text form, among many others. In this work, we investigate how to embed and leverage such abilities in Reinforcement Learning (RL) agents. We design a framework that uses language as the core reasoning tool, exploring how this enables an agent to tackle a series of fundamental RL challenges, such as efficient exploration, reusing experience data, scheduling skills, and learning from observations, which traditionally require separate, vertically designed algorithms. We test our method on a sparse-reward simulated robotic manipulation environment, where a robot needs to stack a set of objects. We demonstrate substantial performance improvements over baselines in exploration efficiency and ability to reuse data from offline datasets, and illustrate how to reuse learned skills to solve novel tasks or imitate videos of human experts. ",
             "authors": "Norman Di Palo|Arunkumar Byravan|Leonard Hasenclever|Markus Wulfmeier|Nicolas Heess|Martin Riedmiller",
-            "pdf": "/pdf/a512a4c45c83b9feb02f530a8257ecaff12f5784.pdf",
+            "pdf": "https://openreview.net/pdf?id=JK_B1tB6p-",
             "forum": "https://openreview.net/forum?id=JK_B1tB6p-",
-            "video": "",
+            "video": "https://youtu.be/j41SOntHW4A",
             "poster": ""
         },
         {
@@ -777,9 +778,9 @@ papers: [
             "title": "Task-Agnostic Continual Reinforcement Learning: Gaining Insights and Overcoming Challenges",
             "abstract": "We study methods for task-agnostic continual reinforcement learning (TACRL). TACRL combines the difficulties of partially observable RL (due to task agnosticism) and the challenges of continual learning (CL), which involves learning on a non-stationary sequence of tasks. As such, TACRL is important in real-world applications where agents must continuously adapt to changing environments. Our focus is on a previously unexplored and straightforward baseline for TACRL called replay-based recurrent RL (3RL). This approach augments an RL algorithm with recurrent mechanisms to mitigate partial observability and experience replay mechanisms to prevent catastrophic forgetting in CL. We pose a counterintuitive hypothesis that 3RL could outperform its soft upper bounds prescribed by previous literature: multi-task learning (MTL) methods that do not have to deal with non-stationary data distributions, as well as task-aware methods that can operate under full observability. Specifically, we believe that the challenges that arise in certain training regimes could be best overcome by 3RL enabled by its ability to perform \\emph{fast adaptation}, compared to task-aware approaches, which focus on task memorization. We extensively test our hypothesis by performing a large number of experiments on synthetic data as well as continuous-action multi-task and continual learning benchmarks where our results provide strong evidence that validates our hypothesis. ",
             "authors": "Massimo Caccia|Jonas Mueller|Taesup Kim|Laurent Charlin|Rasool Fakoor",
-            "pdf": "/pdf/43b8d373d707006f1cc0267e56b9364b43f242bc.pdf",
+            "pdf": "https://openreview.net/pdf?id=84POoMVeje7",
             "forum": "https://openreview.net/forum?id=84POoMVeje7",
-            "video": "",
+            "video": "https://www.youtube.com/watch?v=T0RYCuECAuw",
             "poster": ""
         },
         {
@@ -788,9 +789,9 @@ papers: [
             "title": "Synthetic Experience Replay",
             "abstract": "A key theme in the past decade has been that when large neural networks and large datasets combine they can produce remarkable results. In deep reinforcement learning (RL), this paradigm is commonly made possible through experience replay, whereby a dataset of past experiences is used to train a policy or value function. However, unlike in supervised or self-supervised learning, an RL agent has to collect its own data, which is often limited. Thus, it is challenging to reap the benefits of deep learning, and even small neural networks can overfit at the start of training. In this work, we leverage the tremendous recent progress in generative modeling and propose Synthetic Experience Replay (SynthER), a diffusion-based approach to arbitrarily upsample an agent's collected experience. We show that SynthER is an effective method for training RL agents across offline and online settings. In offline settings, we observe drastic improvements both when upsampling small offline datasets and when training larger networks with additional synthetic data. Furthermore, SynthER enables online agents to train with a much higher update-to-data ratio than before, leading to a large increase in sample efficiency, without any algorithmic changes. We believe that synthetic training data could open the door to realizing the full potential of deep learning for replay-based RL algorithms from limited data.",
             "authors": "Cong Lu|Philip J. Ball|Jack Parker-Holder",
-            "pdf": "/pdf/ca24f9a5be982c998c28c8cdb6a56c05a431914c.pdf",
+            "pdf": "https://drive.google.com/file/d/1tIiooq4xq3BlbQ-chJd2bia8V-oUoe58/view?usp=share_link",
             "forum": "https://openreview.net/forum?id=0a9p3Ty2k_",
-            "video": "",
+            "video": "https://youtu.be/azLIV76ORGA",
             "poster": ""
         },
         {
@@ -799,7 +800,7 @@ papers: [
             "title": "Knowledge Transfer from Teachers to Learners in Growing-Batch Reinforcement Learning",
             "abstract": "Standard approaches to sequential decision-making exploit an agent's ability to continually interact with its environment and improve its control policy. However, due to safety, ethical, and practicality constraints, this type of trial-and-error experimentation is often infeasible in many real-world domains such as healthcare and robotics. Instead, control policies in these domains are typically trained offline from previously logged data or in a growing-batch manner. In this setting a fixed policy is deployed to the environment and used to gather an entire batch of new data before being aggregated with past batches and used to update the policy. This improvement cycle can then be repeated multiple times. While a limited number of such cycles is feasible in real-world domains, the quantity and diversity of the resulting data are much lower than in the standard continually-interacting approach. However, data collection in these domains is often performed in conjunction with human experts, who are able to label or annotate the collected data. In this paper, we first explore the trade-offs present in this growing-batch setting, and then investigate how information provided by a teacher (i.e., demonstrations, expert actions, and gradient information) can be leveraged at training time to mitigate the sample complexity and coverage requirements for actor-critic methods. We validate our contributions on tasks from the DeepMind Control Suite. ",
             "authors": "Patrick Emedom-Nnamdi|Abram L. Friesen|Bobak Shahriari|Nando de Freitas|Matthew Hoffman",
-            "pdf": "/pdf/7abc09454d2bf3bdf207514e4ab6dcf047d2b5ab.pdf",
+            "pdf": "https://drive.google.com/file/d/1zOM_DGrLhxnUO55kGlebiKuYg4Do_5mV/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=cBQR_ROyeW",
             "video": "",
             "poster": ""
@@ -810,7 +811,7 @@ papers: [
             "title": "Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?",
             "abstract": "We present the largest and most comprehensive empirical study of visual foundation models for Embodied AI (EAI). First, we curate CORTEXBENCH, consisting of 17 different EAI tasks spanning locomotion, navigation, dexterous and mobile manipulation. Next, we systematically evaluate existing visual foundation models and find that none is universally dominant.  To study the effect of pre-training data scale and diversity, we combine ImageNet with over 4,000 hours of egocentric videos from 7 different sources (over 5.6M images) and train different sized vision transformers using Masked Auto-Encoding (MAE) on slices of this data. These models required over 10,000 GPU-hours to train and will be open-sourced to the community.  We find that scaling dataset size and diversity does not improve performance across all tasks but does so on average. Finally, we show that adding a second pre-training step on a small in-domain dataset improves performance, matching or outperforming the best known results in this setting.",
             "authors": "Arjun Majumdar|Karmesh Yadav|Sergio Arnaud|Yecheng Jason Ma|Claire Chen|Sneha Silwal|Aryan Jain|Vincent-Pierre Berges|Pieter Abbeel|Dhruv Batra|Yixin Lin|Oleksandr Maksymets|Aravind Rajeswaran|Franziska Meier",
-            "pdf": "/pdf/1903bb9f4080269c1971b32b66105c803125946a.pdf",
+            "pdf": "https://openreview.net/pdf?id=NJtSbIWmt2T",
             "forum": "https://openreview.net/forum?id=NJtSbIWmt2T",
             "video": "",
             "poster": ""
@@ -821,7 +822,7 @@ papers: [
             "title": "Masked Trajectory Models for Prediction, Representation, and Control",
             "abstract": "We introduce Masked Trajectory Models~(MTM) as a generic abstraction for sequential decision making. MTM takes a trajectory, such as a state-action sequence, and aims to reconstruct the trajectory conditioned on random subsets of the same trajectory. By training with a highly randomized masking pattern, MTM learns versatile networks that can take on different roles or capabilities, by simply choosing appropriate masks at inference time. For example, the same MTM network can be used as a forward dynamics model, inverse dynamics model, or even an offline RL agent. Through extensive experiments in several continuous control tasks, we show that the same MTM network -- i.e. same weights -- can match or outperform specialized networks trained for the aforementioned capabilities. Additionally, we find that state representations learned by MTM can significantly accelerate the learning speed of traditional RL algorithms. Finally, in offline RL benchmarks, we find that MTM is competitive with specialized offline RL algorithms, despite MTM being a generic self-supervised learning method without any explicit RL components.",
             "authors": "Philipp Wu|Arjun Majumdar|Kevin Stone|Yixin Lin|Igor Mordatch|Pieter Abbeel|Aravind Rajeswaran",
-            "pdf": "/pdf/8a8aa381d3a6cb06cfaa759f8d1d3a8c7c486a0b.pdf",
+            "pdf": "https://openreview.net/pdf?id=tT3LUdmzbd",
             "forum": "https://openreview.net/forum?id=tT3LUdmzbd",
             "video": "",
             "poster": ""
@@ -865,7 +866,7 @@ papers: [
             "title": "Self-Generating Data for Goal-Conditioned Compositional Problems",
             "abstract": "Building reinforcement learning agents that are generalizable to compositional problems has long been a research challenge. Recent success relies on a pre-existing dataset of rich behaviors. We present a novel paradigm to learn policies generalizable to compositional tasks with self-generated data. After learning primitive skills, the agent runs task expansion that actively expands out more complex tasks by composing learned policies and also naturally generates a dataset of demonstrations for self-distillation. In a proof-of-concept block-stacking environment, our agent discovers a large number of complex tasks after multiple rounds of data generation and distillation, and achieves an appealing zero-shot generalization success rate when building human-designed shapes.",
             "authors": "Ying Yuan|Yunfei Li|Yi Wu",
-            "pdf": "/pdf/e9aa87ecf6e3ea277fb0ccb3ec8ac703c294b040.pdf",
+            "pdf": "https://drive.google.com/file/d/1AE-5z1zG1uGKDMdCUFeEJQ38IUeutuJh/view?usp=share_link",
             "forum": "https://openreview.net/forum?id=O3EdtXuBal",
             "video": "",
             "poster": ""
@@ -876,7 +877,7 @@ papers: [
             "title": "Imitation from Arbitrary Experience: A Dual Unification of Reinforcement and Imitation Learning Methods",
             "abstract": "It is well known that Reinforcement Learning (RL) can be formulated as a convex program with linear constraints. The dual form of this formulation is unconstrained, which we refer to as dual RL, and can leverage preexisting tools from convex optimization to improve the learning performance of RL agents. We show that several state-of-the-art deep RL algorithms (in online, offline, and imitation settings) can be viewed as dual RL approaches in a unified framework. This unification calls for the methods to be studied on common ground, so as to identify the components that actually contribute to the success of these methods. Our unification also reveals that prior off-policy imitation learning methods in the dual space are based on an unrealistic coverage assumption and are restricted to matching a particular f-divergence. We propose a new method using a simple modification to the dual framework that allows for imitation learning with arbitrary off-policy data to obtain near-expert performance.",
             "authors": "Harshit Sikchi|Amy Zhang|Scott Niekum",
-            "pdf": "/pdf/f30f7699fcd5d1bd38f61978ec24f6f58c17ab5b.pdf",
+            "pdf": "https://drive.google.com/file/d/1Iq0utt_QbgEp2brRwgriVQStj8Kk9PVo/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=V89xIEtccS",
             "video": "",
             "poster": ""
@@ -887,7 +888,7 @@ papers: [
             "title": "Offline Visual Representation Learning for Embodied Navigation",
             "abstract": "How should we learn visual representations for embodied agents that must see and move? The status quo is tabula rasa in vivo, i.e. learning visual representations from scratch while also learning to move, potentially augmented with auxiliary tasks (e.g. predicting the action taken between two successive observations). In this paper, we show that an alternative 2-stage strategy is far more effective: (1) offline pretraining of visual representations with self-supervised learning (SSL) using large-scale pre-rendered images of indoor environments (Omnidata), and (2) online finetuning of visuomotor representations on specific tasks with image augmentations under long learning schedules. We call this method Offline Visual Representation Learning (OVRL). We conduct large-scale experiments -- on 3 different 3D datasets (Gibson, HM3D, MP3D), 2 tasks (ImageNav, ObjectNav), and 2 policy learning algorithms (RL, IL) -- and find that the OVRL representations lead to significant across-the-board improvements in state of art, on ImageNav from 29.2% to 54.2% (+25% absolute, 86% relative) and on ObjectNav from 18.1% to 23.2% (+5.1% absolute, 28% relative). Importantly, both results were achieved by the same visual encoder generalizing to datasets that were not seen during pretraining. While the benefits of pretraining sometimes diminish (or entirely disappear) with long finetuning schedules, we find that OVRL's performance gains continue to increase (not decrease) as the agent is trained for 2~billion frames of experience.",
             "authors": "Karmesh Yadav|Ram Ramrakhya|Arjun Majumdar|Vincent-Pierre Berges|Sachit Kuhar|Dhruv Batra|Alexei Baevski|Oleksandr Maksymets",
-            "pdf": "/pdf/0770996c14f90d81e4dd1e95eeb91795f6695121.pdf",
+            "pdf": "https://drive.google.com/file/d/1Ie0CuYQe9z828mocQYxp9Gj7t62v92nH/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=Spfbts_vNY",
             "video": "",
             "poster": ""
@@ -898,7 +899,7 @@ papers: [
             "title": "Think Before You Act: Unified Policy for Interleaving Language Reasoning with Actions",
             "abstract": "The success of transformer models trained with a language modeling objective brings a promising opportunity to the reinforcement learning framework. Decision Transformer is a step towards this direction, showing how to train transformers with a similar next-step prediction objective on offline data. Another important development in this area is the recent emergence of large-scale datasets collected from the internet, such as the ones composed of tutorial videos with captions where people talk about what they are doing. To take advantage of this language component, we propose a novel method for unifying language reasoning with actions in a single policy. Specifically, we augment a transformer policy with word outputs, so it can generate textual captions interleaved with actions. When tested on the most challenging task in BabyAI, with captions describing next subgoals, our reasoning policy consistently outperforms the caption-free baseline.",
             "authors": "Lina Mezghani|Piotr Bojanowski|Karteek Alahari|Sainbayar Sukhbaatar",
-            "pdf": "/pdf/bf9c36231af81899aa259681903b241f0e23b41b.pdf",
+            "pdf": "https://arxiv.org/pdf/2304.11063.pdf",
             "forum": "https://openreview.net/forum?id=HQmhQIi6mN",
             "video": "",
             "poster": ""
@@ -909,7 +910,7 @@ papers: [
             "title": "Learning to Modulate pre-trained Models in RL",
             "abstract": "Reinforcement Learning (RL) has experienced great success in complex games and simulations. However, RL agents are often highly specialized for a particular task, and it is difficult to adapt a trained agent to a new task. In supervised learning, an established paradigm is multi-task pre-training followed by fine-tuning. A similar trend is emerging in RL, where agents are pre-trained on data collections that comprise a multitude of tasks. Despite these developments, it remains an open challenge how to adapt such pre-trained agents to novel tasks while retaining performance on the pre-training tasks. In this regard, we pre-train an agent on a set of tasks from the Meta-World benchmark suite and adapt it to tasks from Continual-World. We conduct a comprehensive comparison of fine-tuning methods originating from supervised learning in our setup. Our findings show that fine-tuning is feasible, but for existing methods, performance on previously learned tasks often deteriorates. Therefore, we propose a novel approach that avoids forgetting by modulating the information flow of the pre-trained model. Our method outperforms existing fine-tuning approaches, and achieves state-of-the-art performance on the Continual-World benchmark. To facilitate future research in this direction, we collect datasets for all Meta-World tasks and make them publicly available.",
             "authors": "Thomas Schmied|Markus Hofmarcher|Fabian Paischer|Razvan Pascanu|Sepp Hochreiter",
-            "pdf": "/pdf/b649b9235d2b43238cbd6f33414708a452caa0c1.pdf",
+            "pdf": "https://drive.google.com/file/d/1bCtMOha1w3wIAuew8NnKf1OD3ekcgeRp/view?usp=sharing",
             "forum": "https://openreview.net/forum?id=Us6BtPZGei3",
             "video": "",
             "poster": ""
@@ -920,9 +921,9 @@ papers: [
             "title": "Chain-of-Thought Predictive Control with Behavior Cloning",
             "abstract": "We study how to learn generalizable policies from demonstrations for complex continuous space tasks (e.g., low-level object manipulations). We aim to leverage the applicability & scalability of Behavior Cloning (BC) combined with the planning capabilities & generalizability of Model Predictive Control (MPC), and at the same time, overcome the challenges of BC with sub-optimal demos and enable planning-based control over a much longer horizon. Specifically, we utilize hierarchical structures in object manipulation tasks via key states that mark the boundary between sub-stages of a trajectory. We couple key state (the chain-of-thought) and action predictions during both training and evaluation stages, providing the model with a structured peek into the long-term future to dynamically adjust its plan. Our method resembles a closed-loop control design and we call it Chain-of-Thought Predictive Control (CoTPC). We empirically find key states governed by learnable patterns shared across demos, and thus CoTPC eases the optimization of BC and produces policies much more generalizable than existing methods on four challenging object manipulation tasks in ManiSkill2.",
             "authors": "Zhiwei Jia|Fangchen Liu|Vineet Thumuluri|Linghao Chen|Zhiao Huang|Hao Su",
-            "pdf": "/pdf/022684945b09db958ddc2d61802b48307a0639bf.pdf",
+            "pdf": "https://openreview.net/pdf?id=TIV7eEY8qY",
             "forum": "https://openreview.net/forum?id=TIV7eEY8qY",
-            "video": "",
+            "video": "https://youtu.be/rGocvlR86Y0",
             "poster": ""
         },
         {
@@ -931,11 +932,12 @@ papers: [
             "title": "Unsupervised Object Interaction Learning with Counterfactual Dynamics Models",
             "abstract": "We present COIL (Counterfactual Object Interaction Learning), a novel way of learning skills of object interactions on entity-centric environments. The goal is to learn primitive behaviors that can control objects and induce their interactions without external reward or supervision being used. Existing skill discovery methods are limited to locomotion, simple navigation tasks, or single-object manipulation tasks, mostly not inducing useful behaviors of inducing interaction between objects. Unlike a monolithic representation usually used in prior skill learning methods, we propose to use a structured goal representation that can query and scope which objects to interact with, which can serve a basis for solving more complex downstream tasks. We design a novel counterfactual intrinsic reward through an use of either forward model or successor features that can learn an interaction skill between a pair of objects given as a goal. Through experiments on continuous control environments such as Magnetic Block and 2.5-D Stacking Box, we demonstrate that an agent can learn object interaction behaviors (e.g., attaching or stacking one block to another) without any external rewards or domain-specific knowledge.",
             "authors": "Jongwook Choi|Sungtae Lee|Xinyu Wang|Sungryull Sohn|Honglak Lee",
-            "pdf": "/pdf/818bac45d8d7dcb312588e36ac2a5c22bae106e5.pdf",
+            "pdf": "https://openreview.net/pdf?id=dYjH8Nv81K",
             "forum": "https://openreview.net/forum?id=dYjH8Nv81K",
             "video": "",
             "poster": ""
         }
+    ]
     ]
 #     {"id": 1, 
 #     "oral": "false",
