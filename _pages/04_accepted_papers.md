@@ -25,7 +25,7 @@ horizontal: false
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
   </h5>
-  <span>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</span>
+  <span>[<a href='{{ paper.pdf }}'>PDF</a>]</span>
   {% if paper.video != '' %}
     <span>[<a href='{{ paper.video }}'>Video</a>]</span>
   {% endif %}
@@ -48,7 +48,7 @@ horizontal: false
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
   </h5>
-  <span>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</span>
+  <span>[<a href='{{ paper.pdf }}'>PDF</a>]</span>
   {% if paper.video != '' %}
     <span>[<a href='{{ paper.video }}'>Video</a>]</span>
   {% endif %}
@@ -72,7 +72,7 @@ horizontal: false
   <h5 style='font-style: italic;'>
     {{ paper.authors }}
   </h5>
-  <span>[<a href='../assets/pdf/{{ paper.pdf }}'>PDF</a>]</span>
+  <span>[<a href='{{ paper.pdf }}'>PDF</a>]</span>
   {% if paper.video != '' %}
     <span>[<a href='{{ paper.video }}'>Video</a>]</span>
   {% endif %}
