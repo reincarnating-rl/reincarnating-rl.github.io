@@ -507,7 +507,6 @@ accepted_posters: [
 ]
 
 papers: [
-        [
         {
             "id": "3",
             "status": "oral",
@@ -937,7 +936,6 @@ papers: [
             "video": "",
             "poster": ""
         }
-    ]
     ]
 #     {"id": 1, 
 #     "oral": "false",
